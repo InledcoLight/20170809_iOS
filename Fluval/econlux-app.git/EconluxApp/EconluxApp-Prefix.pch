@@ -1,0 +1,76 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#define APLocString(x) NSLocalizedString(x, nil)
+
+#define NOTE_RELOAD_CHANNELS @"NOTE_RELOAD_CHANNELS"
+
+#define MOC [(APAppDelegate *)[[UIApplication sharedApplication] delegate] managedObjectContext]
+
+#define CELL_BACKGROUND_COLOR [UIColor colorWithRed:0.36 green:0.70 blue:0.95 alpha:1.0]
+
+#define DARK_COLOR [UIColor colorWithRed:0.00 green:0.31 blue:0.89 alpha:1.0]
+#define DARK_BACKGROUND_COLOR [UIColor colorWithRed:0.09 green:0.15 blue:0.34 alpha:1.0]
+#define TITLE_COLOR [UIColor colorWithRed:1 green:1 blue:1 alpha:1.000]
+#define FOREGROUND_COLOR [UIColor colorWithRed:1 green:1 blue:1 alpha:1]
+#define MAIN_COLOR [UIColor colorWithRed:1 green:1 blue:1 alpha:1]
+#define CONTAINER_COLOR [UIColor colorWithRed:0.04 green:0.13 blue:0.44 alpha:1.0]
+// light detail
+#define TEXT_FIELD_COLOR [UIColor colorWithRed:0.9 green:0.9 blue:0.9 alpha:1.000]
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#import "APChannel.h"
+#import "APPhase.h"
+#import "APBaseTableViewCell.h"
+#import "APAppDelegate.h"
+#import <FrameAccessor/FrameAccessor.h>
+#import "APConnectionManager.h"
+#import <Crashlytics/Crashlytics.h>
+#import "APLogger.h"
+
+#endif
+
+#define CGM(X,Y,W,H) CGRectMake(X,Y,W,H)
+#define CGPM(X,Y) CGPointMake(X, Y)
+#define CGSM(W,H) CGSizeMake(W,H)
+
+
+#define winSize [UIScreen mainScreen].bounds.size
+
+#define NDC  [NSNotificationCenter defaultCenter]
+#define USRD [NSUserDefaults standardUserDefaults]
+
+#define degreesToRadian(x) (M_PI * (x) / 180.0)
+
+//#define OSVersion [[[UIDevice currentDevice] systemVersion] floatValue]
+
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+#define GlobalDefaultQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
+#define GlobalHighQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0)
+#define GlobalBackGroundQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0)
+#define GlobalLowQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_LOW, 0)
+#define MainQueue dispatch_get_main_queue()
+
+#define isDict(obj) [obj isKindOfClass:[NSDictionary class]]
+#define isString(obj) [obj isKindOfClass:[NSString class]]
+#define isArray(obj) [obj isKindOfClass:[NSArray class]]
+#define isNumber(obj) [obj isKindOfClass:[NSNumber class]]
+
+//#define DLog(...) NSLog(@"%@", [NSString stringWithFormat:__VA_ARGS__])
+#define DLog(...) [[APLogger sharedInstance] log:[NSString stringWithFormat:__VA_ARGS__]]
+
+#define APAlert(title, text, buttonTitle) [[UIAlertView alloc] initWithTitle:title message:text delegate:nil cancelButtonTitle:buttonTitle otherButtonTitles:nil]

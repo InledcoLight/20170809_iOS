@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14C109" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="APChannel" representedClassName="APChannel" syncable="YES">
+        <attribute name="index" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="light" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="APLight" inverseName="channels" inverseEntity="APLight" syncable="YES"/>
+        <relationship name="phases" optional="YES" toMany="YES" maxCount="5" deletionRule="Nullify" destinationEntity="APPhase" inverseName="channel" inverseEntity="APPhase" syncable="YES"/>
+    </entity>
+    <entity name="APGateway" representedClassName="APGateway" syncable="YES">
+        <attribute name="host" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastConnect" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="port" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="runningMode" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="lights" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="APLight" inverseName="gateway" inverseEntity="APLight" syncable="YES"/>
+    </entity>
+    <entity name="APLight" representedClassName="APLight" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="slot" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="channels" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="APChannel" inverseName="light" inverseEntity="APChannel" syncable="YES"/>
+        <relationship name="gateway" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="APGateway" inverseName="lights" inverseEntity="APGateway" syncable="YES"/>
+    </entity>
+    <entity name="APPhase" representedClassName="APPhase" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isBreak" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isNeeded" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sort" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="startsLinear" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="stopsLinear" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="timeFrom" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="timeTo" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="channel" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="APChannel" inverseName="phases" inverseEntity="APChannel" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="APChannel" positionX="-63" positionY="-18" width="128" height="103"/>
+        <element name="APGateway" positionX="-54" positionY="90" width="128" height="150"/>
+        <element name="APLight" positionX="-63" positionY="81" width="128" height="118"/>
+        <element name="APPhase" positionX="-54" positionY="0" width="128" height="210"/>
+    </elements>
+</model>

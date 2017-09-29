@@ -1,0 +1,68 @@
+/* 
+  German.strings
+  EconluxApp
+
+  Created by Michael Müller on 16/07/14.
+  Copyright (c) 2014 AppPilots GbR. All rights reserved.
+*/
+
+"DUMMY_CHANNEL_1" = "Warm light (front)";
+"DUMMY_CHANNEL_2" = "Cold light (back)";
+"DUMMY_CHANNEL_3" = "Background lightning";
+"DUMMY_CHANNEL_4" = "Plant lightning";
+"DUMMY_GATEWAY" = "Fish tank living room";
+
+"PHASE_1" = "Sunrise";
+"PHASE_2" = "Break";
+"PHASE_3" = "Sunset";
+"PHASE_4" = "Moon";
+
+"AUTOMATIC" = "automatic";
+
+// SIDE NAVIGATION
+"SIDE_NAV_CONNECTED_GATEWAY" = "Connected to Gateway";
+
+// CHANNEL ROOT VIEW CONTROLLER
+"CDCTL_DIMMING" = "Dimming";
+"CDCTL_NAME" = "Name";
+"CDCTL_COMMIT" = "COMMIT";
+"CONNECTING_LABEL" = "Connecting...";
+"UNDEFINED" = "undefined";
+
+// CONNECTION SCREEN
+"CONNECTION_SCREEN_TITLE" = "Connect to Gateway";
+"CONNECTION_SCREEN_HEADER_DESCRIPTION" = "Connect to a gateway in your local WiFi. Please make sure tahat you are connected to the same network as your desired gateway.";
+"CONNECTION_SCREEN_ADDRESS_LABEL" = "IP-Address";
+"CONNECTION_SCREEN_PORT_LABEL" = "Port";
+"CONNECTION_SCREEN_CONNECT" = "Connect now";
+
+// TIME SET SCREEN
+"TIME_TOP_DESC" = "Modifying %@ time (%@) of \n%@\nStarting at: %@ • Ending at: %@";
+"STOP_TIME" = "stop";
+"START_TIME" = "start";
+"TIME_BUTTON_SET" = "Set";
+
+// DIRECT CONTROL SCREEN
+"REMOTE_TITLE" = "Direct Control";
+"REMOTE_ON" = "On";
+"REMOTE_OFF" = "Off";
+"REMOTE_DIMMER_SUBTITLE" = "Light dimmed";
+
+// PHASES DETAIL SCREEN
+"PHASE_DETAIL_START" = "Start:";
+"PHASE_DETAIL_STOP" = "Stop:";
+"PHASE_DETAIL_GIVEN_VALUE" = "Given Value:";
+"PHASE_DETAIL_CHANGE_COLOR" = "COLOR TAG";
+"PHASE_DETAIL_SAVE" = "SAVE";
+"PHASE_DETAIL_CANCEL" = "CANCEL";
+"PHASE_DETAIL_RESET" = "Reset";
+"PHASE_DETAIL_CHANNEL" = "Channel:";
+"PHASE_DETAIL_CHOOSE_COLOR" = "Choose graphic color";
+"PREV_PHASE_VALUES" = "The previous phase is ending at %@";
+"PREV_PHASE_SUNRISE" = "This is the first phase. Please choose when the sun to rise";
+"PREV_PHASE_BREAK" = "The previous phase (sunrise) is starting at:\n%@";
+
+"ALERT_ERROR" = "Error";
+"ALERT_INVALID_START_STOP" = "Please provide a valid start and stop time";
+"ALERT_OK" = "Ok";
+"ALERT_INVALID_SORT" = "The start time needs to be smaller than the stop time";

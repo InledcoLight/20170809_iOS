@@ -1,0 +1,3 @@
+[submodule "KPTimePicker"]
+	path = KPTimePicker
+	url = https://github.com/kasperpihl/KPTimePicker.git

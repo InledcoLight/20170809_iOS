@@ -1,0 +1,29 @@
+ [
+  {
+  "color": "#16A085",
+  "isNeeded": true,
+  "name": "Sunrise",
+  "sort": 0,
+  "startsLinear": true
+  },
+  {
+  "color": "#F1C40F",
+  "isBreak": true,
+  "isNeeded": false,
+  "name": "Break",
+  "sort": 1
+  },
+  {
+  "color": "#C0392B",
+  "isNeeded": true,
+  "name": "Sunset",
+  "sort": 2,
+  "stopsLinear": true
+  },
+  {
+  "color": "#2C3E50",
+  "isNeeded": false,
+  "name": "Moon",
+  "sort": 3
+  }
+  ]

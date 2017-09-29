@@ -1,0 +1,16 @@
+#!/bin/bash
+
+name="$1"
+scheme="$2"
+
+echo $name
+echo $scheme
+
+profile="ISIS Wildcard InHouse Distribution"
+#profile="anyMOTION Wildcard InHouse Distribution"
+
+rm -rf ./build/*
+xcodebuild -scheme "$scheme" -workspace "$name.xcworkspace" clean archive -archivePath "build/$scheme"
+xcodebuild -exportArchive -exportFormat ipa -archivePath "build/$scheme.xcarchive" -exportPath "build/$scheme.ipa" -exportProvisioningProfile "$profile"
+open ./build
+open /Applications/BetaBuilder\ for\ iOS\ Apps.app

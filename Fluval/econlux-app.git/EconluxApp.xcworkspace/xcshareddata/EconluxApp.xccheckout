@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EC007F9A-BEF0-47B4-AB9D-3D8EE52AC603</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EconluxApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A6BF49E2CA526BD889ECC01882246000786D8CC2</key>
+		<string>https://github.com/kasperpihl/KPTimePicker.git</string>
+		<key>D5658467954BB4B56C33AF44CC42B6F0775A45DF</key>
+		<string>git.app-pilots.de:ios/aplibrary.git</string>
+		<key>F0B76834284DD572AEEC1FE3B865BF0194E52006</key>
+		<string>git.app-pilots.de:m.mueller/econlux-app.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EconluxApp.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A6BF49E2CA526BD889ECC01882246000786D8CC2</key>
+		<string>..KPTimePicker</string>
+		<key>D5658467954BB4B56C33AF44CC42B6F0775A45DF</key>
+		<string>../../%23%23%23APSharedSources</string>
+		<key>F0B76834284DD572AEEC1FE3B865BF0194E52006</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>git.app-pilots.de:m.mueller/econlux-app.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F0B76834284DD572AEEC1FE3B865BF0194E52006</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D5658467954BB4B56C33AF44CC42B6F0775A45DF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>%23%23%23APSharedSources</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F0B76834284DD572AEEC1FE3B865BF0194E52006</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EconluxApp</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A6BF49E2CA526BD889ECC01882246000786D8CC2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EconluxAppKPTimePicker</string>
+		</dict>
+	</array>
+</dict>
+</plist>

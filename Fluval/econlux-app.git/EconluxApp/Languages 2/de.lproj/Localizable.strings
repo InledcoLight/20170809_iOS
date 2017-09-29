@@ -1,0 +1,68 @@
+/* 
+  German.strings
+  EconluxApp
+
+  Created by Michael Müller on 16/07/14.
+  Copyright (c) 2014 AppPilots GbR. All rights reserved.
+*/
+
+"DUMMY_CHANNEL_1" = "Warmlicht (vorne)";
+"DUMMY_CHANNEL_2" = "Kaltlicht (hinten)";
+"DUMMY_CHANNEL_3" = "Hintergrundbeleuchtung";
+"DUMMY_CHANNEL_4" = "Pflanzenbeleuchtung";
+"DUMMY_GATEWAY" = "Aquarium Wohnzimmer";
+
+"PHASE_1" = "Sonnenaufgang";
+"PHASE_2" = "Mittagspause";
+"PHASE_3" = "Sonnenuntergang";
+"PHASE_4" = "Nacht";
+
+"AUTOMATIC" = "automatisch";
+
+// SIDE NAVIGATION
+"SIDE_NAV_CONNECTED_GATEWAY" = "Verbunden mit Gateway:";
+
+// CHANNEL ROOT VIEW CONTROLLER
+"CDCTL_DIMMING" = "Dimmen";
+"CDCTL_NAME" = "Name";
+"CDCTL_COMMIT" = "ÜBERNEHMEN";
+"CONNECTING_LABEL" = "Verbinde...";
+"UNDEFINED" = "undefiniert";
+
+// CONNECTION SCREEN
+"CONNECTION_SCREEN_TITLE" = "Verbinden";
+"CONNECTION_SCREEN_HEADER_DESCRIPTION" = "Verbinden Sie sich zu einem lokalen Gateway. Bitte vergewissern Sie sich, dass Ihr iPhone und das Gateway mit dem selben Netzwerk verbunden sind.";
+"CONNECTION_SCREEN_ADDRESS_LABEL" = "IP-Adresse";
+"CONNECTION_SCREEN_PORT_LABEL" = "Port";
+"CONNECTION_SCREEN_CONNECT" = "Jetzt verbinden";
+
+// TIME SET SCREEN
+"TIME_TOP_DESC" = "Bearbeite %@zeit (%@) für \n%@\nStart um: %@ • Ende um: %@";
+"STOP_TIME" = "End";
+"START_TIME" = "Start";
+"TIME_BUTTON_SET" = "Übernehmen";
+
+// DIRECT CONTROL SCREEN
+"REMOTE_TITLE" = "Direktsteuerung";
+"REMOTE_ON" = "An";
+"REMOTE_OFF" = "Aus";
+"REMOTE_DIMMER_SUBTITLE" = "Leuchtstärke";
+
+// PHASES DETAIL SCREEN
+"PHASE_DETAIL_START" = "Start:";
+"PHASE_DETAIL_STOP" = "Stop:";
+"PHASE_DETAIL_GIVEN_VALUE" = "Zielwert:";
+"PHASE_DETAIL_CHANGE_COLOR" = "FARB-TAG";
+"PHASE_DETAIL_SAVE" = "SPEICHERN";
+"PHASE_DETAIL_CANCEL" = "ABBRECHEN";
+"PHASE_DETAIL_RESET" = "Rücksetzen";
+"PHASE_DETAIL_CHANNEL" = "Kanal:";
+"PHASE_DETAIL_CHOOSE_COLOR" = "Grafikfarbe wählen";
+"PREV_PHASE_VALUES" = "Die vorherige Phase endet um:\n %@";
+"PREV_PHASE_SUNRISE" = "Bitte wählen Sie, in welchem Zeitraum die Sonne aufgehen soll.";
+"PREV_PHASE_BREAK" = "Die vorherige Phase (Sonnenaufgang) startet um: %@";
+
+"ALERT_ERROR" = "Fehler";
+"ALERT_INVALID_START_STOP" = "Bitte geben Sie eine gültige Start- und Endzeit an";
+"ALERT_OK" = "Ok";
+"ALERT_INVALID_SORT" = "Die Startzeit muss vor der Endzeit liegen";

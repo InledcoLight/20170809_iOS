@@ -1,0 +1,140 @@
+/*
+ English.strings
+ EconluxApp
+ 
+ Created by Michael Müller on 16/07/14.
+ Copyright (c) 2014 AppPilots GbR. All rights reserved.
+ */
+
+// LANGUAGE
+"LANGUAGE" = "English";
+
+"DUMMY_CHANNEL_1" = "Warm light (front)";
+"DUMMY_CHANNEL_2" = "Cold light (back)";
+"DUMMY_CHANNEL_3" = "Background lightning";
+"DUMMY_CHANNEL_4" = "Plant lightning";
+"DUMMY_GATEWAY" = "Fish tank living room";
+
+"PHASE_1" = "Sunrise";
+"PHASE_2" = "Break";
+"PHASE_3" = "Sunset";
+"PHASE_4" = "Moon";
+
+"AUTOMATIC" = "automatic";
+
+
+"LIGHT_TITLE" = "Light Settings";
+
+// GATEWAY RUNNING MODE
+"GATEWAY_MODE" = "Automatic Mode %@";
+"GATEWAY_MODE_MANUAL" = "Off";
+"GATEWAY_MODE_AUTOMATIC" = "On";
+
+// SLOT SETTINGS
+"SLOT_SETTINGS_NAME" = "Name";
+"SLOT_SETTINGS_SLOT" = "Port";
+"SLOT_SETTINGS_PRODUCT" = "Model";
+"SLOT_SETTINGS_SAVE" = "Save";
+"SLOT_SETTINGS_TITLE" = "New light";
+
+// SIDE NAVIGATION
+"SIDE_NAV_CONNECTED_GATEWAY" = "Connected to Gateway";
+
+// CHANNEL ROOT VIEW CONTROLLER
+"CDCTL_DIMMING" = "Dimming";
+"CDCTL_NAME" = "Name";
+"CDCTL_COMMIT" = "SAVE CHANGES";
+"CDCTL_COLOR" = "Color";
+"CDCTL_LIGHT_TYPE" = "Type of light";
+"CONNECTING_LABEL" = "Connecting...";
+"UNDEFINED" = "undefined";
+
+// CONNECTION SCREEN
+"CONNECTION_SCREEN_TITLE" = "Connect to Gateway";
+"CONNECTION_SCREEN_HEADER_DESCRIPTION" = "Connect to a gateway in your local WiFi. Please make sure that you are connected to the same network as your desired gateway.";
+"CONNECTION_SCREEN_ADDRESS_LABEL" = "IP-Address";
+"CONNECTION_SCREEN_PORT_LABEL" = "Port";
+"CONNECTION_SCREEN_CONNECT" = "Connect now";
+
+// TIME SET SCREEN
+"TIME_TOP_DESC" = "Modifying %@ time of (%@)\nStarting at: %@ • Ending at: %@";
+"STOP_TIME" = "stop";
+"START_TIME" = "start";
+"TIME_BUTTON_SET" = "Set";
+
+// DIRECT CONTROL SCREEN
+"REMOTE_TITLE" = "Direct Control";
+"REMOTE_ON" = "On";
+"REMOTE_OFF" = "Off";
+"REMOTE_DIMMER_SUBTITLE" = "Light dimmed";
+"REMOTE_TITLE_2" = "Channel %d";
+// PHASES DETAIL SCREEN
+"PHASE_DETAIL_START" = "Start:";
+"PHASE_DETAIL_STOP" = "End:";
+"PHASE_DETAIL_GIVEN_VALUE" = "Target Brightness:";
+"PHASE_DETAIL_CHANGE_COLOR" = "COLOR TAG";
+"PHASE_DETAIL_SAVE" = "OK";
+"PHASE_DETAIL_CANCEL" = "CANCEL";
+"PHASE_DETAIL_RESET" = "Reset";
+"PHASE_DETAIL_CHANNEL" = "Channel:";
+"PHASE_DETAIL_CHOOSE_COLOR" = "Choose color";
+"PREV_PHASE_VALUES" = "The previous phase is ending at %@";
+"PREV_PHASE_SUNRISE" = "Please select Sunrise Schedule";
+"PREV_PHASE_BREAK" = "Please select Break Schedule";
+"PREV_PHASE_SUNSET" = "Please select Sunset Schedule";
+
+// LOGIN
+"LOGIN_INFO" = "IP-Address of your gateway";
+"LOGIN_INFO_FETCHING_IP" = "Getting the IP-Address, please wait";
+"LOGIN_ERROR" = "ERROR";
+"LOGIN_ERROR_WRONG_NETWORK" = "The device isn't on the right network.";
+"LOGIN_ERROR_NO_IP" = "It was impossible to get an IP-Address. Please check your WiFi settings.";
+"LOGIN_ERROR_RESTART_WIFI" = "There was a problem connecting to the WiFi. Please restart your WiFi.";
+"LOGIN_INFO_IP_GOT" = "IP found.";
+
+// ALERT
+"ALERT_GATEWAY_NOT_RENAMED" = "The gateway could not be renamed.";
+"ALERT_GATEWAY_NOT_RENAMED_NO_NAME" = "Gateway could not be renamed. No name was provided!";
+"ALERT_LIGHT_NOT_SAVED" = "The light could not be saved";
+"ALERT_COMITING_GW" = "There was an error committing the gateways type";
+"ALERT_NO_CONNECTION" = "No connection established!";
+"ALERT_GATEWAY_NO_INFO" = "The gateway info could not be read.";
+"ALERT_GATEWAY_UNAVAILABLE" = "Couldn't connect to given gateway. Please check your wifi connection.";
+"ALERT_VALUE_NOT_SAVED" = "The new value could not be saved in the gateway";
+"ALERT_LIGHT_NAME_NOT_SAVED" = "The new light name could not be saved in the gateway";
+"ALERT_INVALID_VALUES" = "Please check your input. There are invalid values occurring.";
+"ALERT_ERROR" = "Error";
+"ALERT_INVALID_START_STOP" = "Please provide a valid start and stop time";
+"ALERT_OK" = "Ok";
+"ALERT_INVALID_SORT" = "The start time needs to be smaller than the stop time";
+"ALERT_WARNING" = "Warning";
+"ALERT_INVALID_NAME" = "Please provide a valid name";
+"ALERT_INVALID_PRODUCT_TYP" = "Please provide a valid product type";
+"ALERT_WIFI_ERROR" = "Connection Interrupted";
+"ALERT_CONNECTION_LOST" = "WiFi connection lost. Please reconnect.";
+"ALERT_SUNRISE_VALUE_TOO_LOW" = "The value of the Sunrise needs to be bigger than the value of the Sunset";
+"ALERT_WRONG_PW" = "The entered password is wrong. Please try again.";
+
+// LIGHT TYPES
+"CHANNELS" = "Channels";
+
+"NO_LIGHTS_CONFIGURED" = "There are no lights existing. Please configure a new light by clicking the plus icon in the upper right corner.";
+"LIGHT_1_CHANNEL" = "1 channel";
+"LIGHT_2_CHANNEL" = "2 channel";
+
+// SETTINGS
+"SETTINGS_SET" = "Set";
+"SETTINGS_CANCEL" = "Cancel";
+"SETTINGS_TITLE" = "Settings";
+"SETTINGS_CHANGE" = "New password";
+"SETTINGS_CHANGE_PW" = "Change password";
+"SETTINGS_CHANGE_PW_INFO" = "Please provide a new login password.";
+"SETTINGS_RESET_GW" = "Reset to factory defaults";
+"SETTINGS_RENAME" = "Rename";
+"SETTINGS_RENAME_GW" = "Re-name WiFi device";
+"SETTINGS_RENAME_GW_INFO" = "Please provide a new name for this connected gateway";
+"SETTINGS_CLOUD_MODE" = "Cloud effect is %@";
+"SETTINGS_CLOUD_MODE_ON" = "on";
+"SETTINGS_CLOUD_MODE_OFF" = "off";
+"INVALID_PW" = "Please provide a valid password";
+"CHANGE_PW_ERROR" = "The new password could not be set. Please check your connection.";

@@ -1,0 +1,216 @@
+[
+	{
+		"gw_type":1,
+ 		"identifier":1,
+		"label":"SunStrip 35 Fresh",
+		"channels":[
+			{
+				"type":"plain", 
+				"label":"White channel",
+				"indizes":"0"
+			},
+			{
+				"type":"rgb", 
+				"label":"Color channel",
+				"indizes":"1,2,3"
+			}
+		]
+	},
+
+	{
+		"gw_type":1,
+		"identifier":2,
+		"label":"SunStrip 35 Reptile",
+		"channels":[
+			{
+				"type":"plain", 
+				"label":"White channel",
+				"indizes":"0"
+			},
+			{
+				"type":"rgb", 
+				"label":"Color channel",
+				"indizes":"1,2,3"
+			},
+            {
+                "type":"plain",
+                "label":"UVA channel",
+                "indizes":"4"
+            },
+		]
+	},
+
+	{
+		"gw_type":1,
+ 		"identifier":3,
+		"label":"SunStrip 70 Fresh",
+		"channels":[
+			{
+				"type":"plain", 
+				"label":"White channel",
+				"indizes":"0"
+			},
+			{
+				"type":"rgb", 
+				"label":"Color channel",
+				"indizes":"1,2,3"
+			}
+		]
+	},
+
+	{
+		"gw_type":1,
+ 		"identifier":4,
+		"label":"SunStrip 70 Marine",
+		"channels":[
+			{
+				"type":"plain", 
+				"label":"White channel",
+				"indizes":"0"
+			},
+			{
+				"type":"rgb", 
+				"label":"Color channel",
+				"indizes":"1,2,3"
+			},
+			{
+				"type":"plain", 
+				"label":"Blue channel",
+				"indizes":"4"
+			}
+		]
+	},
+
+	{
+		"gw_type":1,
+ 		"identifier":5,
+		"label":"SunStrip 160 Marine",
+		"channels":[
+			{
+				"type":"plain", 
+				"label":"White channel",
+				"indizes":"0"
+			},
+			{
+				"type":"rgb", 
+				"label":"Color channel",
+				"indizes":"1,2,3"
+			},
+			{
+				"type":"plain", 
+				"label":"Blue channel",
+				"indizes":"4"
+			}
+		]
+	},
+
+	{
+		"gw_type":1,
+  		"identifier":6,
+		"label":"SunStrip 20 Day",
+		"channels":[
+			{
+				"type":"plain", 
+				"label":"White channel",
+				"indizes":"0"
+			}
+		]
+	},
+
+
+	{
+		"gw_type":1,
+  		"identifier":7,
+		"label":"SunStrip 20 Moon",
+		"channels":[
+			{
+				"type":"plain", 
+				"label":"Blue channel",
+				"indizes":"4"
+			}
+		]
+	},
+
+
+	{
+		"gw_type":1,
+  		"identifier":8,
+		"label":"UnderWater Tube Day",
+		"channels":[
+			{
+				"type":"plain", 
+				"label":"White channel",
+				"indizes":"0"
+			}
+		]
+	},
+     {
+         "gw_type":1,
+         "identifier":9,
+         "label":"UnderWater Tube RGB",
+         "channels":[
+                     {
+                     "type":"rgb",
+                     "label":"Color channel",
+                     "indizes":"1,2,3"
+                     }
+                    ]
+    },
+
+	{
+		"gw_type":1,
+ 		"identifier":10,
+		"label":"UnderWater Tube Moon",
+		"channels":[
+			{
+				"type":"plain", 
+				"label":"Blue channel",
+				"indizes":"4"
+			}
+		]
+	},
+
+	{
+		"gw_type":1,
+  		"identifier":11,
+		"label":"Heatstrip",
+		"channels":[
+			{
+				"type":"switch", 
+				"label":"Heating",
+				"indizes":"0"
+			}
+		]
+	},
+
+	{
+		"gw_type":0,
+  		"identifier":12,
+		"label":"Fluval 1.0",
+		"channels":[
+			{
+				"type":"plain", 
+				"label":"Ch 1 Daylight",
+				"indizes":"0"
+			}
+		]
+	},
+
+	{
+		"gw_type":0,
+  		"identifier":13,
+		"label":"Fluval 2.0",
+		"channels":[
+			{
+				"type":"plain", 
+				"label":"Ch 1 Daylight",
+				"indizes":"0"
+			},
+			{
+				"type":"plain", 
+				"label":"Ch 2 Night/Blue light",
+				"indizes":"1"
+			}
+		]
+	}
+]

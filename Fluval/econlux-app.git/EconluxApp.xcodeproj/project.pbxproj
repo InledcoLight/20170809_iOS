@@ -1,0 +1,1695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5207A88C1A867A2C00A7DD9F /* APLightsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5207A88B1A867A2C00A7DD9F /* APLightsTableViewController.m */; };
+		5207A8951A8682F100A7DD9F /* APBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5207A8941A8682F100A7DD9F /* APBaseTableViewCell.m */; };
+		520F77A91A82422D009213C1 /* APCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 520F77A81A82422D009213C1 /* APCommand.m */; };
+		520FD914196D51C7002EC9F2 /* 816-satellite.png in Resources */ = {isa = PBXBuildFile; fileRef = 520FD912196D51C7002EC9F2 /* 816-satellite.png */; };
+		520FD915196D51C7002EC9F2 /* 816-satellite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 520FD913196D51C7002EC9F2 /* 816-satellite@2x.png */; };
+		520FD918196D51D0002EC9F2 /* 832-pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 520FD916196D51D0002EC9F2 /* 832-pencil.png */; };
+		520FD919196D51D0002EC9F2 /* 832-pencil@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 520FD917196D51D0002EC9F2 /* 832-pencil@2x.png */; };
+		5226D9EB196FD16700F171F5 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5226D9EA196FD16700F171F5 /* GCDAsyncSocket.m */; };
+		5226D9EE196FD21700F171F5 /* APGatewayConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 5226D9ED196FD21700F171F5 /* APGatewayConnector.m */; };
+		5226D9F1196FD94200F171F5 /* NSLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5226D9F0196FD94200F171F5 /* NSLinkedList.m */; };
+		523BFF991A869AF9007E7FAD /* APLightCreationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523BFF981A869AF9007E7FAD /* APLightCreationTableViewController.m */; };
+		523FD7A71A877F350042AF41 /* APLightDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523FD7A61A877F350042AF41 /* APLightDetailTableViewController.m */; };
+		523FD7D31A87AD940042AF41 /* _APChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 523FD7C41A87AD940042AF41 /* _APChannel.m */; };
+		523FD7D41A87AD940042AF41 /* _APGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 523FD7C61A87AD940042AF41 /* _APGateway.m */; };
+		523FD7D51A87AD940042AF41 /* _APLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 523FD7C81A87AD940042AF41 /* _APLight.m */; };
+		523FD7D61A87AD940042AF41 /* _APPhase.m in Sources */ = {isa = PBXBuildFile; fileRef = 523FD7CA1A87AD940042AF41 /* _APPhase.m */; };
+		523FD7D71A87AD940042AF41 /* APChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 523FD7CC1A87AD940042AF41 /* APChannel.m */; };
+		523FD7D81A87AD940042AF41 /* APGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 523FD7CE1A87AD940042AF41 /* APGateway.m */; };
+		523FD7D91A87AD940042AF41 /* APLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 523FD7D01A87AD940042AF41 /* APLight.m */; };
+		523FD7DA1A87AD940042AF41 /* APPhase.m in Sources */ = {isa = PBXBuildFile; fileRef = 523FD7D21A87AD940042AF41 /* APPhase.m */; };
+		524308D019740CDC0024E63D /* lightbulb_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524308CC19740CDC0024E63D /* lightbulb_off@2x.png */; };
+		524308D119740CDC0024E63D /* lightbulb_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524308CD19740CDC0024E63D /* lightbulb_on@2x.png */; };
+		524308D219740CDC0024E63D /* on_off_switch_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524308CE19740CDC0024E63D /* on_off_switch_back@2x.png */; };
+		524308D319740CDC0024E63D /* switch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524308CF19740CDC0024E63D /* switch@2x.png */; };
+		524308D519740CE70024E63D /* dimmer_knopf@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524308D419740CE70024E63D /* dimmer_knopf@2x.png */; };
+		524308D719740E580024E63D /* hintergrund@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524308D619740E580024E63D /* hintergrund@2x.png */; };
+		524308DA197420810024E63D /* 861-sun-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 524308D8197420810024E63D /* 861-sun-2.png */; };
+		524308DB197420810024E63D /* 861-sun-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524308D9197420810024E63D /* 861-sun-2@2x.png */; };
+		524308DE197420940024E63D /* 740-gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 524308DC197420940024E63D /* 740-gear.png */; };
+		524308DF197420940024E63D /* 740-gear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524308DD197420940024E63D /* 740-gear@2x.png */; };
+		524308E2197420E80024E63D /* 811-download-box.png in Resources */ = {isa = PBXBuildFile; fileRef = 524308E0197420E80024E63D /* 811-download-box.png */; };
+		524308E3197420E80024E63D /* 811-download-box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524308E1197420E80024E63D /* 811-download-box@2x.png */; };
+		524374631A837C9500A17284 /* APSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524374621A837C9500A17284 /* APSettingsTableViewController.m */; };
+		524374661A83862200A17284 /* APImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 524374651A83862100A17284 /* APImageView.m */; };
+		524EC5CD1A94BCCA00A9A407 /* APJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 524EC5CC1A94BCCA00A9A407 /* APJSONModel.m */; };
+		524EC5D31A94BDAC00A9A407 /* SLDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 524EC5D01A94BDAC00A9A407 /* SLDownloadManager.m */; };
+		524EC5D41A94BDAC00A9A407 /* SLDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 524EC5D21A94BDAC00A9A407 /* SLDownloadOperation.m */; };
+		524EC5D71A94BF2300A9A407 /* APLightConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 524EC5D61A94BF2300A9A407 /* APLightConfiguration.m */; };
+		524EC5DD1A94BF4700A9A407 /* APChannelConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 524EC5DC1A94BF4700A9A407 /* APChannelConfiguration.m */; };
+		524EC5DF1A94BF5D00A9A407 /* APLightConfiguration.model in Resources */ = {isa = PBXBuildFile; fileRef = 524EC5DE1A94BF5D00A9A407 /* APLightConfiguration.model */; };
+		524EC5E11A94BFA300A9A407 /* APChannelConfiguration.model in Resources */ = {isa = PBXBuildFile; fileRef = 524EC5E01A94BFA300A9A407 /* APChannelConfiguration.model */; };
+		525CEC241A5ABA720084B9C8 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525CEC231A5ABA710084B9C8 /* Login.storyboard */; };
+		525CEC2A1A5ABD390084B9C8 /* APConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 525CEC281A5ABD390084B9C8 /* APConnectionViewController.m */; };
+		52602900196DCA0E00ADECBF /* APDimmingSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 526028FF196DCA0E00ADECBF /* APDimmingSwitch.m */; };
+		52640F601974046400C96A18 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F501974046400C96A18 /* Roboto-Black.ttf */; };
+		52640F611974046400C96A18 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F511974046400C96A18 /* Roboto-BlackItalic.ttf */; };
+		52640F621974046400C96A18 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F521974046400C96A18 /* Roboto-Bold.ttf */; };
+		52640F631974046400C96A18 /* Roboto-BoldCondensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F531974046400C96A18 /* Roboto-BoldCondensed.ttf */; };
+		52640F641974046400C96A18 /* Roboto-BoldCondensedItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F541974046400C96A18 /* Roboto-BoldCondensedItalic.ttf */; };
+		52640F651974046400C96A18 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F551974046400C96A18 /* Roboto-BoldItalic.ttf */; };
+		52640F661974046400C96A18 /* Roboto-Condensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F561974046400C96A18 /* Roboto-Condensed.ttf */; };
+		52640F671974046400C96A18 /* Roboto-CondensedItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F571974046400C96A18 /* Roboto-CondensedItalic.ttf */; };
+		52640F681974046400C96A18 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F581974046400C96A18 /* Roboto-Italic.ttf */; };
+		52640F691974046400C96A18 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F591974046400C96A18 /* Roboto-Light.ttf */; };
+		52640F6A1974046400C96A18 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F5A1974046400C96A18 /* Roboto-LightItalic.ttf */; };
+		52640F6B1974046400C96A18 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F5B1974046400C96A18 /* Roboto-Medium.ttf */; };
+		52640F6C1974046400C96A18 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F5C1974046400C96A18 /* Roboto-MediumItalic.ttf */; };
+		52640F6D1974046400C96A18 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F5D1974046400C96A18 /* Roboto-Regular.ttf */; };
+		52640F6E1974046400C96A18 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F5E1974046400C96A18 /* Roboto-Thin.ttf */; };
+		52640F6F1974046400C96A18 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F5F1974046400C96A18 /* Roboto-ThinItalic.ttf */; };
+		5269986319702238001E5C7C /* APImageManipulationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5269986219702238001E5C7C /* APImageManipulationFactory.m */; };
+		5269986619702958001E5C7C /* APRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5269986519702958001E5C7C /* APRotationGestureRecognizer.m */; };
+		5277B434194069A0001CDA97 /* icon_impressum@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5277B432194069A0001CDA97 /* icon_impressum@2x.png */; };
+		5277B435194069A0001CDA97 /* icon_navigation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5277B433194069A0001CDA97 /* icon_navigation@2x.png */; };
+		5277B43919406B08001CDA97 /* APGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5277B43819406B08001CDA97 /* APGraphView.m */; };
+		52798E501AA0B51200A65800 /* APGatewayModeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E6D7E41AA0882B00248DB2 /* APGatewayModeView.m */; };
+		527AF2C01976A92E00E00C62 /* APControlScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527AF2BF1976A92E00E00C62 /* APControlScrollViewController.m */; };
+		527D93C8193F2B030071A63E /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 527D93C7193F2B030071A63E /* FontAwesome.otf */; };
+		527E587B1A9F5074007D1E59 /* KPTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EDE13A1941AF17003A82C3 /* KPTimePicker.m */; };
+		527E587C1A9F5074007D1E59 /* APSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524374621A837C9500A17284 /* APSettingsTableViewController.m */; };
+		527E587D1A9F5074007D1E59 /* APGatewayConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 5226D9ED196FD21700F171F5 /* APGatewayConnector.m */; };
+		527E587E1A9F5074007D1E59 /* _APLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 523FD7C81A87AD940042AF41 /* _APLight.m */; };
+		527E587F1A9F5074007D1E59 /* APNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FF996D1A87EE140053DEED /* APNavigationController.m */; };
+		527E58811A9F5074007D1E59 /* APImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 524374651A83862100A17284 /* APImageView.m */; };
+		527E58821A9F5074007D1E59 /* APBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A687381950F3FF00115E1C /* APBaseViewController.m */; };
+		527E58831A9F5074007D1E59 /* APLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FF64F51A9BB67F0069DAC4 /* APLogger.m */; };
+		527E58841A9F5074007D1E59 /* APRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5269986519702958001E5C7C /* APRotationGestureRecognizer.m */; };
+		527E58851A9F5074007D1E59 /* APLightDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523FD7A61A877F350042AF41 /* APLightDetailTableViewController.m */; };
+		527E58861A9F5074007D1E59 /* _APChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 523FD7C41A87AD940042AF41 /* _APChannel.m */; };
+		527E58871A9F5074007D1E59 /* APCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 520F77A81A82422D009213C1 /* APCommand.m */; };
+		527E58881A9F5074007D1E59 /* APColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EC6EEF195877ED00892885 /* APColorPicker.m */; };
+		527E58891A9F5074007D1E59 /* _APGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 523FD7C61A87AD940042AF41 /* _APGateway.m */; };
+		527E588B1A9F5074007D1E59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5289224E18F6BE9800F6009D /* main.m */; };
+		527E588C1A9F5074007D1E59 /* SLDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 524EC5D01A94BDAC00A9A407 /* SLDownloadManager.m */; };
+		527E588D1A9F5074007D1E59 /* NSLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5226D9F0196FD94200F171F5 /* NSLinkedList.m */; };
+		527E588E1A9F5074007D1E59 /* SLDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 524EC5D21A94BDAC00A9A407 /* SLDownloadOperation.m */; };
+		527E588F1A9F5074007D1E59 /* APChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 523FD7CC1A87AD940042AF41 /* APChannel.m */; };
+		527E58901A9F5074007D1E59 /* RMDownloadIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EC6EF31958AA8600892885 /* RMDownloadIndicator.m */; };
+		527E58921A9F5074007D1E59 /* APChannelDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C7E92A1941B66B00AF2EDF /* APChannelDetailViewController.m */; };
+		527E58931A9F5074007D1E59 /* EconluxApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5289225418F6BE9800F6009D /* EconluxApp.xcdatamodeld */; };
+		527E58941A9F5074007D1E59 /* APControlScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527AF2BF1976A92E00E00C62 /* APControlScrollViewController.m */; };
+		527E58951A9F5074007D1E59 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5226D9EA196FD16700F171F5 /* GCDAsyncSocket.m */; };
+		527E58961A9F5074007D1E59 /* APChannelRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5289227B18F6C14400F6009D /* APChannelRootViewController.m */; };
+		527E58971A9F5074007D1E59 /* APJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 524EC5CC1A94BCCA00A9A407 /* APJSONModel.m */; };
+		527E58981A9F5074007D1E59 /* APLightCreationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523BFF981A869AF9007E7FAD /* APLightCreationTableViewController.m */; };
+		527E58991A9F5074007D1E59 /* APConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 525CEC281A5ABD390084B9C8 /* APConnectionViewController.m */; };
+		527E589A1A9F5074007D1E59 /* APDimmingSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 526028FF196DCA0E00ADECBF /* APDimmingSwitch.m */; };
+		527E589B1A9F5074007D1E59 /* APLightsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5207A88B1A867A2C00A7DD9F /* APLightsTableViewController.m */; };
+		527E589D1A9F5074007D1E59 /* APRemoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5290CE77196C1AE800E54CBF /* APRemoteViewController.m */; };
+		527E589E1A9F5074007D1E59 /* APLightConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 524EC5D61A94BF2300A9A407 /* APLightConfiguration.m */; };
+		527E589F1A9F5074007D1E59 /* APPhaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A8764A1957779A00CAE1DB /* APPhaseTableViewCell.m */; };
+		527E58A01A9F5074007D1E59 /* APLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 523FD7D01A87AD940042AF41 /* APLight.m */; };
+		527E58A11A9F5074007D1E59 /* APPhase.m in Sources */ = {isa = PBXBuildFile; fileRef = 523FD7D21A87AD940042AF41 /* APPhase.m */; };
+		527E58A21A9F5074007D1E59 /* Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EDE12A1941AF17003A82C3 /* Categories.m */; };
+		527E58A31A9F5074007D1E59 /* APGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5277B43819406B08001CDA97 /* APGraphView.m */; };
+		527E58A41A9F5074007D1E59 /* APGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 523FD7CE1A87AD940042AF41 /* APGateway.m */; };
+		527E58A51A9F5074007D1E59 /* APConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CC3809196992FC00CF8579 /* APConnectionManager.m */; };
+		527E58A61A9F5074007D1E59 /* RMDisplayLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EC6EF61958AADD00892885 /* RMDisplayLabel.m */; };
+		527E58A71A9F5074007D1E59 /* APImageManipulationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5269986219702238001E5C7C /* APImageManipulationFactory.m */; };
+		527E58A81A9F5074007D1E59 /* APRadialColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52862FC71A5D642900429715 /* APRadialColorPickerViewController.m */; };
+		527E58A91A9F5074007D1E59 /* APAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5289225218F6BE9800F6009D /* APAppDelegate.m */; };
+		527E58AA1A9F5074007D1E59 /* _APPhase.m in Sources */ = {isa = PBXBuildFile; fileRef = 523FD7CA1A87AD940042AF41 /* _APPhase.m */; };
+		527E58AB1A9F5074007D1E59 /* APBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5207A8941A8682F100A7DD9F /* APBaseTableViewCell.m */; };
+		527E58AC1A9F5074007D1E59 /* APChannelConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 524EC5DC1A94BF4700A9A407 /* APChannelConfiguration.m */; };
+		527E58AE1A9F5074007D1E59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5289224218F6BE9800F6009D /* CoreGraphics.framework */; };
+		527E58AF1A9F5074007D1E59 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5289224618F6BE9800F6009D /* CoreData.framework */; };
+		527E58B01A9F5074007D1E59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5289224418F6BE9800F6009D /* UIKit.framework */; };
+		527E58B11A9F5074007D1E59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5289224018F6BE9800F6009D /* Foundation.framework */; };
+		527E58B21A9F5074007D1E59 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5292FC1F1A62A19E00341609 /* Crashlytics.framework */; };
+		527E58B31A9F5074007D1E59 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB04570446A640D29C9804A8 /* libPods.a */; };
+		527E58B51A9F5074007D1E59 /* 816-satellite.png in Resources */ = {isa = PBXBuildFile; fileRef = 520FD912196D51C7002EC9F2 /* 816-satellite.png */; };
+		527E58B61A9F5074007D1E59 /* 861-sun-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524308D9197420810024E63D /* 861-sun-2@2x.png */; };
+		527E58B71A9F5074007D1E59 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5289227518F6BECD00F6009D /* MainStoryboard.storyboard */; };
+		527E58B81A9F5074007D1E59 /* checkmark_icon_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EDE12D1941AF17003A82C3 /* checkmark_icon_white@2x.png */; };
+		527E58B91A9F5074007D1E59 /* Roboto-BoldCondensedItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F541974046400C96A18 /* Roboto-BoldCondensedItalic.ttf */; };
+		527E58BA1A9F5074007D1E59 /* 832-pencil@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 520FD917196D51D0002EC9F2 /* 832-pencil@2x.png */; };
+		527E58BB1A9F5074007D1E59 /* round_backarrow_big-high@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EDE1321941AF17003A82C3 /* round_backarrow_big-high@2x.png */; };
+		527E58BC1A9F5074007D1E59 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52A56FFA19772257002DC1EC /* Localizable.strings */; };
+		527E58BD1A9F5074007D1E59 /* 740-gear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524308DD197420940024E63D /* 740-gear@2x.png */; };
+		527E58BF1A9F5074007D1E59 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F501974046400C96A18 /* Roboto-Black.ttf */; };
+		527E58C01A9F5074007D1E59 /* dimmer_knopf@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524308D419740CE70024E63D /* dimmer_knopf@2x.png */; };
+		527E58C11A9F5074007D1E59 /* lightbulb_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524308CC19740CDC0024E63D /* lightbulb_off@2x.png */; };
+		527E58C21A9F5074007D1E59 /* schedule_image_moon-high@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EDE1361941AF17003A82C3 /* schedule_image_moon-high@2x.png */; };
+		527E58C31A9F5074007D1E59 /* 811-download-box.png in Resources */ = {isa = PBXBuildFile; fileRef = 524308E0197420E80024E63D /* 811-download-box.png */; };
+		527E58C41A9F5074007D1E59 /* lightbulb_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524308CD19740CDC0024E63D /* lightbulb_on@2x.png */; };
+		527E58C51A9F5074007D1E59 /* switch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524308CF19740CDC0024E63D /* switch@2x.png */; };
+		527E58C61A9F5074007D1E59 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F5E1974046400C96A18 /* Roboto-Thin.ttf */; };
+		527E58C71A9F5074007D1E59 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F511974046400C96A18 /* Roboto-BlackItalic.ttf */; };
+		527E58C81A9F5074007D1E59 /* schedule_image_moon-high.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EDE1351941AF17003A82C3 /* schedule_image_moon-high.png */; };
+		527E58C91A9F5074007D1E59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5289224B18F6BE9800F6009D /* InfoPlist.strings */; };
+		527E58CA1A9F5074007D1E59 /* APChannelConfiguration.model in Resources */ = {isa = PBXBuildFile; fileRef = 524EC5E01A94BFA300A9A407 /* APChannelConfiguration.model */; };
+		527E58CB1A9F5074007D1E59 /* hintergrund@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524308D619740E580024E63D /* hintergrund@2x.png */; };
+		527E58CC1A9F5074007D1E59 /* icon_navigation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5277B433194069A0001CDA97 /* icon_navigation@2x.png */; };
+		527E58CE1A9F5074007D1E59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5289225718F6BE9800F6009D /* Images.xcassets */; };
+		527E58CF1A9F5074007D1E59 /* 740-gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 524308DC197420940024E63D /* 740-gear.png */; };
+		527E58D01A9F5074007D1E59 /* Roboto-Condensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F561974046400C96A18 /* Roboto-Condensed.ttf */; };
+		527E58D11A9F5074007D1E59 /* close_new@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52E0EA7119705CF5005EE73A /* close_new@2x.png */; };
+		527E58D21A9F5074007D1E59 /* APLightConfiguration.model in Resources */ = {isa = PBXBuildFile; fileRef = 524EC5DE1A94BF5D00A9A407 /* APLightConfiguration.model */; };
+		527E58D31A9F5074007D1E59 /* schedule_image_sun-high@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EDE1381941AF17003A82C3 /* schedule_image_sun-high@2x.png */; };
+		527E58D41A9F5074007D1E59 /* round_backarrow_big@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EDE1341941AF17003A82C3 /* round_backarrow_big@2x.png */; };
+		527E58D51A9F5074007D1E59 /* Roboto-CondensedItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F571974046400C96A18 /* Roboto-CondensedItalic.ttf */; };
+		527E58D61A9F5074007D1E59 /* 816-satellite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 520FD913196D51C7002EC9F2 /* 816-satellite@2x.png */; };
+		527E58D71A9F5074007D1E59 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 527D93C7193F2B030071A63E /* FontAwesome.otf */; };
+		527E58D81A9F5074007D1E59 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F551974046400C96A18 /* Roboto-BoldItalic.ttf */; };
+		527E58D91A9F5074007D1E59 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F591974046400C96A18 /* Roboto-Light.ttf */; };
+		527E58DA1A9F5074007D1E59 /* 811-download-box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524308E1197420E80024E63D /* 811-download-box@2x.png */; };
+		527E58DB1A9F5074007D1E59 /* picker_wheel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EDE12E1941AF17003A82C3 /* picker_wheel@2x.png */; };
+		527E58DC1A9F5074007D1E59 /* picker_wheel_ip4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EDE1301941AF17003A82C3 /* picker_wheel_ip4@2x.png */; };
+		527E58DD1A9F5074007D1E59 /* round_backarrow_big-high.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EDE1311941AF17003A82C3 /* round_backarrow_big-high.png */; };
+		527E58DE1A9F5074007D1E59 /* 832-pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 520FD916196D51D0002EC9F2 /* 832-pencil.png */; };
+		527E58DF1A9F5074007D1E59 /* Roboto-BoldCondensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F531974046400C96A18 /* Roboto-BoldCondensed.ttf */; };
+		527E58E01A9F5074007D1E59 /* 861-sun-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 524308D8197420810024E63D /* 861-sun-2.png */; };
+		527E58E11A9F5074007D1E59 /* checkmark_icon_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EDE12C1941AF17003A82C3 /* checkmark_icon_white.png */; };
+		527E58E21A9F5074007D1E59 /* on_off_switch_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524308CE19740CDC0024E63D /* on_off_switch_back@2x.png */; };
+		527E58E31A9F5074007D1E59 /* phases_config.json in Resources */ = {isa = PBXBuildFile; fileRef = 52D012EC195986D900A503F5 /* phases_config.json */; };
+		527E58E41A9F5074007D1E59 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525CEC231A5ABA710084B9C8 /* Login.storyboard */; };
+		527E58E51A9F5074007D1E59 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F5A1974046400C96A18 /* Roboto-LightItalic.ttf */; };
+		527E58E61A9F5074007D1E59 /* icon_impressum@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5277B432194069A0001CDA97 /* icon_impressum@2x.png */; };
+		527E58E71A9F5074007D1E59 /* schedule_image_sun-high.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EDE1371941AF17003A82C3 /* schedule_image_sun-high.png */; };
+		527E58E81A9F5074007D1E59 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F581974046400C96A18 /* Roboto-Italic.ttf */; };
+		527E58E91A9F5074007D1E59 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F5D1974046400C96A18 /* Roboto-Regular.ttf */; };
+		527E58EA1A9F5074007D1E59 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F521974046400C96A18 /* Roboto-Bold.ttf */; };
+		527E58EB1A9F5074007D1E59 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F5C1974046400C96A18 /* Roboto-MediumItalic.ttf */; };
+		527E58EC1A9F5074007D1E59 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F5B1974046400C96A18 /* Roboto-Medium.ttf */; };
+		527E58ED1A9F5074007D1E59 /* round_backarrow_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EDE1331941AF17003A82C3 /* round_backarrow_big.png */; };
+		527E58EE1A9F5074007D1E59 /* picker_wheel_ip4.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EDE12F1941AF17003A82C3 /* picker_wheel_ip4.png */; };
+		527E58EF1A9F5074007D1E59 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52640F5F1974046400C96A18 /* Roboto-ThinItalic.ttf */; };
+		527E58FA1A9F511C007D1E59 /* Shared.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527E58F91A9F511C007D1E59 /* Shared.xcassets */; };
+		527E58FB1A9F5149007D1E59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527E58F71A9F5107007D1E59 /* Images.xcassets */; };
+		52862FC81A5D642900429715 /* APRadialColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52862FC71A5D642900429715 /* APRadialColorPickerViewController.m */; };
+		5289224118F6BE9800F6009D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5289224018F6BE9800F6009D /* Foundation.framework */; };
+		5289224318F6BE9800F6009D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5289224218F6BE9800F6009D /* CoreGraphics.framework */; };
+		5289224518F6BE9800F6009D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5289224418F6BE9800F6009D /* UIKit.framework */; };
+		5289224718F6BE9800F6009D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5289224618F6BE9800F6009D /* CoreData.framework */; };
+		5289224D18F6BE9800F6009D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5289224B18F6BE9800F6009D /* InfoPlist.strings */; };
+		5289224F18F6BE9800F6009D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5289224E18F6BE9800F6009D /* main.m */; };
+		5289225318F6BE9800F6009D /* APAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5289225218F6BE9800F6009D /* APAppDelegate.m */; };
+		5289225618F6BE9800F6009D /* EconluxApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5289225418F6BE9800F6009D /* EconluxApp.xcdatamodeld */; };
+		5289227618F6BECD00F6009D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5289227518F6BECD00F6009D /* MainStoryboard.storyboard */; };
+		5289227C18F6C14400F6009D /* APChannelRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5289227B18F6C14400F6009D /* APChannelRootViewController.m */; };
+		5290CE78196C1AE800E54CBF /* APRemoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5290CE77196C1AE800E54CBF /* APRemoteViewController.m */; };
+		5292FC201A62A19E00341609 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5292FC1F1A62A19E00341609 /* Crashlytics.framework */; };
+		52A56FF819772257002DC1EC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52A56FFA19772257002DC1EC /* Localizable.strings */; };
+		52A687391950F3FF00115E1C /* APBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A687381950F3FF00115E1C /* APBaseViewController.m */; };
+		52A8764B1957779A00CAE1DB /* APPhaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A8764A1957779A00CAE1DB /* APPhaseTableViewCell.m */; };
+		52C7E92B1941B66B00AF2EDF /* APChannelDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C7E92A1941B66B00AF2EDF /* APChannelDetailViewController.m */; };
+		52CC380A196992FC00CF8579 /* APConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CC3809196992FC00CF8579 /* APConnectionManager.m */; };
+		52D012ED195986D900A503F5 /* phases_config.json in Resources */ = {isa = PBXBuildFile; fileRef = 52D012EC195986D900A503F5 /* phases_config.json */; };
+		52E0EA7219705CF5005EE73A /* close_new@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52E0EA7119705CF5005EE73A /* close_new@2x.png */; };
+		52E6D7E51AA0882B00248DB2 /* APGatewayModeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E6D7E41AA0882B00248DB2 /* APGatewayModeView.m */; };
+		52EC6EF0195877ED00892885 /* APColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EC6EEF195877ED00892885 /* APColorPicker.m */; };
+		52EC6EF41958AA8600892885 /* RMDownloadIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EC6EF31958AA8600892885 /* RMDownloadIndicator.m */; };
+		52EC6EF71958AADD00892885 /* RMDisplayLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EC6EF61958AADD00892885 /* RMDisplayLabel.m */; };
+		52EDE13B1941AF17003A82C3 /* Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EDE12A1941AF17003A82C3 /* Categories.m */; };
+		52EDE13C1941AF17003A82C3 /* checkmark_icon_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EDE12C1941AF17003A82C3 /* checkmark_icon_white.png */; };
+		52EDE13D1941AF17003A82C3 /* checkmark_icon_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EDE12D1941AF17003A82C3 /* checkmark_icon_white@2x.png */; };
+		52EDE13E1941AF17003A82C3 /* picker_wheel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EDE12E1941AF17003A82C3 /* picker_wheel@2x.png */; };
+		52EDE13F1941AF17003A82C3 /* picker_wheel_ip4.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EDE12F1941AF17003A82C3 /* picker_wheel_ip4.png */; };
+		52EDE1401941AF17003A82C3 /* picker_wheel_ip4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EDE1301941AF17003A82C3 /* picker_wheel_ip4@2x.png */; };
+		52EDE1411941AF17003A82C3 /* round_backarrow_big-high.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EDE1311941AF17003A82C3 /* round_backarrow_big-high.png */; };
+		52EDE1421941AF17003A82C3 /* round_backarrow_big-high@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EDE1321941AF17003A82C3 /* round_backarrow_big-high@2x.png */; };
+		52EDE1431941AF17003A82C3 /* round_backarrow_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EDE1331941AF17003A82C3 /* round_backarrow_big.png */; };
+		52EDE1441941AF17003A82C3 /* round_backarrow_big@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EDE1341941AF17003A82C3 /* round_backarrow_big@2x.png */; };
+		52EDE1451941AF17003A82C3 /* schedule_image_moon-high.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EDE1351941AF17003A82C3 /* schedule_image_moon-high.png */; };
+		52EDE1461941AF17003A82C3 /* schedule_image_moon-high@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EDE1361941AF17003A82C3 /* schedule_image_moon-high@2x.png */; };
+		52EDE1471941AF17003A82C3 /* schedule_image_sun-high.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EDE1371941AF17003A82C3 /* schedule_image_sun-high.png */; };
+		52EDE1481941AF17003A82C3 /* schedule_image_sun-high@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EDE1381941AF17003A82C3 /* schedule_image_sun-high@2x.png */; };
+		52EDE1491941AF17003A82C3 /* KPTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EDE13A1941AF17003A82C3 /* KPTimePicker.m */; };
+		52FF64F61A9BB67F0069DAC4 /* APLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FF64F51A9BB67F0069DAC4 /* APLogger.m */; };
+		52FF996E1A87EE140053DEED /* APNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FF996D1A87EE140053DEED /* APNavigationController.m */; };
+		670D0A2A1B43CB6C00CF0823 /* 753-signpost@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 670D0A291B43CB6C00CF0823 /* 753-signpost@2x.png */; };
+		670D0A2B1B43CB6C00CF0823 /* 753-signpost@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 670D0A291B43CB6C00CF0823 /* 753-signpost@2x.png */; };
+		670D0A2D1B43D6C200CF0823 /* 744-locked.png in Resources */ = {isa = PBXBuildFile; fileRef = 670D0A2C1B43D6C200CF0823 /* 744-locked.png */; };
+		670D0A2E1B43D6C200CF0823 /* 744-locked.png in Resources */ = {isa = PBXBuildFile; fileRef = 670D0A2C1B43D6C200CF0823 /* 744-locked.png */; };
+		6710CD381B297D3200CA9775 /* APTimePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6710CD371B297D3200CA9775 /* APTimePickerViewController.m */; };
+		6710CD391B297D3200CA9775 /* APTimePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6710CD371B297D3200CA9775 /* APTimePickerViewController.m */; };
+		6710CD3C1B297DB300CA9775 /* UIView+Border.m in Sources */ = {isa = PBXBuildFile; fileRef = 6710CD3B1B297DB300CA9775 /* UIView+Border.m */; };
+		6710CD3D1B297DB300CA9775 /* UIView+Border.m in Sources */ = {isa = PBXBuildFile; fileRef = 6710CD3B1B297DB300CA9775 /* UIView+Border.m */; };
+		6710CD411B297E2700CA9775 /* APListSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6710CD3F1B297E2700CA9775 /* APListSelectionViewController.m */; };
+		6710CD421B297E2700CA9775 /* APListSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6710CD3F1B297E2700CA9775 /* APListSelectionViewController.m */; };
+		6710CD431B297E2700CA9775 /* APListSelectionViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6710CD401B297E2700CA9775 /* APListSelectionViewController.storyboard */; };
+		6710CD441B297E2700CA9775 /* APListSelectionViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6710CD401B297E2700CA9775 /* APListSelectionViewController.storyboard */; };
+		6710FDB41B3C40B0006B3B2C /* EconluxConfigurationEnglish.json in Resources */ = {isa = PBXBuildFile; fileRef = 6710FDB21B3C40B0006B3B2C /* EconluxConfigurationEnglish.json */; };
+		6710FDB51B3C40B0006B3B2C /* EconluxConfigurationEnglish.json in Resources */ = {isa = PBXBuildFile; fileRef = 6710FDB21B3C40B0006B3B2C /* EconluxConfigurationEnglish.json */; };
+		6710FDB61B3C40B0006B3B2C /* EconluxConfigurationGerman.json in Resources */ = {isa = PBXBuildFile; fileRef = 6710FDB31B3C40B0006B3B2C /* EconluxConfigurationGerman.json */; };
+		6710FDB71B3C40B0006B3B2C /* EconluxConfigurationGerman.json in Resources */ = {isa = PBXBuildFile; fileRef = 6710FDB31B3C40B0006B3B2C /* EconluxConfigurationGerman.json */; };
+		6716062B1B4A83B0004F08DE /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 6716062A1B4A83B0004F08DE /* close.png */; };
+		6716062C1B4A83B0004F08DE /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 6716062A1B4A83B0004F08DE /* close.png */; };
+		671BD5F11BCD256D0053C24F /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 671BD5EF1BCD256D0053C24F /* add.png */; };
+		671BD5F21BCD256D0053C24F /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 671BD5EF1BCD256D0053C24F /* add.png */; };
+		671BD5F31BCD256D0053C24F /* add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 671BD5F01BCD256D0053C24F /* add@2x.png */; };
+		671BD5F41BCD256D0053C24F /* add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 671BD5F01BCD256D0053C24F /* add@2x.png */; };
+		671BD5F71BCD2FC50053C24F /* handOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 671BD5F51BCD2FC50053C24F /* handOn.png */; };
+		671BD5F81BCD2FC50053C24F /* handOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 671BD5F51BCD2FC50053C24F /* handOn.png */; };
+		671BD5F91BCD2FC50053C24F /* handOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 671BD5F61BCD2FC50053C24F /* handOn@2x.png */; };
+		671BD5FA1BCD2FC50053C24F /* handOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 671BD5F61BCD2FC50053C24F /* handOn@2x.png */; };
+		674AA3341C6DCC6700355C80 /* EconluxConfigurationFrance.json in Resources */ = {isa = PBXBuildFile; fileRef = 674AA3331C6DCC6700355C80 /* EconluxConfigurationFrance.json */; };
+		674AA3351C6DCC6700355C80 /* EconluxConfigurationFrance.json in Resources */ = {isa = PBXBuildFile; fileRef = 674AA3331C6DCC6700355C80 /* EconluxConfigurationFrance.json */; };
+		679D202D1B42CDD500939A72 /* Fluval_Hintergrund.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 679D202B1B42CDD500939A72 /* Fluval_Hintergrund.jpg */; };
+		679D202E1B42CDD500939A72 /* Fluval_Hintergrund.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 679D202B1B42CDD500939A72 /* Fluval_Hintergrund.jpg */; };
+		679D202F1B42CDD500939A72 /* fluval_schriftzug.png in Resources */ = {isa = PBXBuildFile; fileRef = 679D202C1B42CDD500939A72 /* fluval_schriftzug.png */; };
+		679D20301B42CDD500939A72 /* fluval_schriftzug.png in Resources */ = {isa = PBXBuildFile; fileRef = 679D202C1B42CDD500939A72 /* fluval_schriftzug.png */; };
+		679D20321B42D10900939A72 /* fluval_hintergrund+schriftzug.png in Resources */ = {isa = PBXBuildFile; fileRef = 679D20311B42D10900939A72 /* fluval_hintergrund+schriftzug.png */; };
+		679D20331B42D10900939A72 /* fluval_hintergrund+schriftzug.png in Resources */ = {isa = PBXBuildFile; fileRef = 679D20311B42D10900939A72 /* fluval_hintergrund+schriftzug.png */; };
+		679D20351B42D9FB00939A72 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 679D20341B42D9FB00939A72 /* bg.png */; };
+		679D20361B42D9FB00939A72 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 679D20341B42D9FB00939A72 /* bg.png */; };
+		679D203B1B42DC8100939A72 /* 742-wrench@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 679D203A1B42DC8100939A72 /* 742-wrench@2x.png */; };
+		679D203C1B42DC8100939A72 /* 742-wrench@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 679D203A1B42DC8100939A72 /* 742-wrench@2x.png */; };
+		679D20471B42DCD200939A72 /* 706-cloud@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 679D20461B42DCD200939A72 /* 706-cloud@2x.png */; };
+		679D20481B42DCD200939A72 /* 706-cloud@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 679D20461B42DCD200939A72 /* 706-cloud@2x.png */; };
+		679D204A1B42DEEE00939A72 /* 846-sun-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 679D20491B42DEEE00939A72 /* 846-sun-1@2x.png */; };
+		679D204B1B42DEEE00939A72 /* 846-sun-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 679D20491B42DEEE00939A72 /* 846-sun-1@2x.png */; };
+		679D204D1B42DF5900939A72 /* 734-chat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 679D204C1B42DF5900939A72 /* 734-chat@2x.png */; };
+		679D204E1B42DF5900939A72 /* 734-chat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 679D204C1B42DF5900939A72 /* 734-chat@2x.png */; };
+		679D20501B42DF6E00939A72 /* 856-lightning-bolt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 679D204F1B42DF6E00939A72 /* 856-lightning-bolt@2x.png */; };
+		679D20511B42DF6E00939A72 /* 856-lightning-bolt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 679D204F1B42DF6E00939A72 /* 856-lightning-bolt@2x.png */; };
+		679D20531B42DF9700939A72 /* 744-locked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 679D20521B42DF9700939A72 /* 744-locked@2x.png */; };
+		679D20541B42DF9700939A72 /* 744-locked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 679D20521B42DF9700939A72 /* 744-locked@2x.png */; };
+		A12567015DF04181BDF21736 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB04570446A640D29C9804A8 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5207A88A1A867A2C00A7DD9F /* APLightsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLightsTableViewController.h; sourceTree = "<group>"; };
+		5207A88B1A867A2C00A7DD9F /* APLightsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLightsTableViewController.m; sourceTree = "<group>"; };
+		5207A8931A8682F100A7DD9F /* APBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APBaseTableViewCell.h; sourceTree = "<group>"; };
+		5207A8941A8682F100A7DD9F /* APBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APBaseTableViewCell.m; sourceTree = "<group>"; };
+		520F77A71A82422D009213C1 /* APCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCommand.h; sourceTree = "<group>"; };
+		520F77A81A82422D009213C1 /* APCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCommand.m; sourceTree = "<group>"; };
+		520FD912196D51C7002EC9F2 /* 816-satellite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "816-satellite.png"; path = "Glyphish/816-satellite.png"; sourceTree = "<group>"; };
+		520FD913196D51C7002EC9F2 /* 816-satellite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "816-satellite@2x.png"; path = "Glyphish/816-satellite@2x.png"; sourceTree = "<group>"; };
+		520FD916196D51D0002EC9F2 /* 832-pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "832-pencil.png"; path = "Glyphish/832-pencil.png"; sourceTree = "<group>"; };
+		520FD917196D51D0002EC9F2 /* 832-pencil@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "832-pencil@2x.png"; path = "Glyphish/832-pencil@2x.png"; sourceTree = "<group>"; };
+		5226D9E9196FD16700F171F5 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		5226D9EA196FD16700F171F5 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		5226D9EC196FD21700F171F5 /* APGatewayConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APGatewayConnector.h; sourceTree = "<group>"; };
+		5226D9ED196FD21700F171F5 /* APGatewayConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APGatewayConnector.m; sourceTree = "<group>"; };
+		5226D9EF196FD94200F171F5 /* NSLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLinkedList.h; sourceTree = "<group>"; };
+		5226D9F0196FD94200F171F5 /* NSLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLinkedList.m; sourceTree = "<group>"; };
+		523BFF971A869AF9007E7FAD /* APLightCreationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLightCreationTableViewController.h; sourceTree = "<group>"; };
+		523BFF981A869AF9007E7FAD /* APLightCreationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLightCreationTableViewController.m; sourceTree = "<group>"; };
+		523FD7A51A877F350042AF41 /* APLightDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLightDetailTableViewController.h; sourceTree = "<group>"; };
+		523FD7A61A877F350042AF41 /* APLightDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLightDetailTableViewController.m; sourceTree = "<group>"; };
+		523FD7C31A87AD940042AF41 /* _APChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _APChannel.h; sourceTree = "<group>"; };
+		523FD7C41A87AD940042AF41 /* _APChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _APChannel.m; sourceTree = "<group>"; };
+		523FD7C51A87AD940042AF41 /* _APGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _APGateway.h; sourceTree = "<group>"; };
+		523FD7C61A87AD940042AF41 /* _APGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _APGateway.m; sourceTree = "<group>"; };
+		523FD7C71A87AD940042AF41 /* _APLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _APLight.h; sourceTree = "<group>"; };
+		523FD7C81A87AD940042AF41 /* _APLight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _APLight.m; sourceTree = "<group>"; };
+		523FD7C91A87AD940042AF41 /* _APPhase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _APPhase.h; sourceTree = "<group>"; };
+		523FD7CA1A87AD940042AF41 /* _APPhase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _APPhase.m; sourceTree = "<group>"; };
+		523FD7CB1A87AD940042AF41 /* APChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APChannel.h; sourceTree = "<group>"; };
+		523FD7CC1A87AD940042AF41 /* APChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APChannel.m; sourceTree = "<group>"; };
+		523FD7CD1A87AD940042AF41 /* APGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APGateway.h; sourceTree = "<group>"; };
+		523FD7CE1A87AD940042AF41 /* APGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APGateway.m; sourceTree = "<group>"; };
+		523FD7CF1A87AD940042AF41 /* APLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLight.h; sourceTree = "<group>"; };
+		523FD7D01A87AD940042AF41 /* APLight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLight.m; sourceTree = "<group>"; };
+		523FD7D11A87AD940042AF41 /* APPhase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPhase.h; sourceTree = "<group>"; };
+		523FD7D21A87AD940042AF41 /* APPhase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPhase.m; sourceTree = "<group>"; };
+		524308CC19740CDC0024E63D /* lightbulb_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lightbulb_off@2x.png"; sourceTree = "<group>"; };
+		524308CD19740CDC0024E63D /* lightbulb_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lightbulb_on@2x.png"; sourceTree = "<group>"; };
+		524308CE19740CDC0024E63D /* on_off_switch_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "on_off_switch_back@2x.png"; sourceTree = "<group>"; };
+		524308CF19740CDC0024E63D /* switch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch@2x.png"; sourceTree = "<group>"; };
+		524308D419740CE70024E63D /* dimmer_knopf@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dimmer_knopf@2x.png"; sourceTree = "<group>"; };
+		524308D619740E580024E63D /* hintergrund@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hintergrund@2x.png"; sourceTree = "<group>"; };
+		524308D8197420810024E63D /* 861-sun-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "861-sun-2.png"; path = "Glyphish/861-sun-2.png"; sourceTree = "<group>"; };
+		524308D9197420810024E63D /* 861-sun-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "861-sun-2@2x.png"; path = "Glyphish/861-sun-2@2x.png"; sourceTree = "<group>"; };
+		524308DC197420940024E63D /* 740-gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "740-gear.png"; path = "Glyphish/740-gear.png"; sourceTree = "<group>"; };
+		524308DD197420940024E63D /* 740-gear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "740-gear@2x.png"; path = "Glyphish/740-gear@2x.png"; sourceTree = "<group>"; };
+		524308E0197420E80024E63D /* 811-download-box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "811-download-box.png"; path = "Glyphish/811-download-box.png"; sourceTree = "<group>"; };
+		524308E1197420E80024E63D /* 811-download-box@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "811-download-box@2x.png"; path = "Glyphish/811-download-box@2x.png"; sourceTree = "<group>"; };
+		524374611A837C9500A17284 /* APSettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APSettingsTableViewController.h; sourceTree = "<group>"; };
+		524374621A837C9500A17284 /* APSettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APSettingsTableViewController.m; sourceTree = "<group>"; };
+		524374641A83862100A17284 /* APImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APImageView.h; path = "../../../###APSharedSources/UIImage View Extensions/APImageView.h"; sourceTree = "<group>"; };
+		524374651A83862100A17284 /* APImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APImageView.m; path = "../../../###APSharedSources/UIImage View Extensions/APImageView.m"; sourceTree = "<group>"; };
+		524EC5CB1A94BCCA00A9A407 /* APJSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APJSONModel.h; path = "../../../../###APSharedSources/JSON Model/APJSONModel.h"; sourceTree = "<group>"; };
+		524EC5CC1A94BCCA00A9A407 /* APJSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APJSONModel.m; path = "../../../../###APSharedSources/JSON Model/APJSONModel.m"; sourceTree = "<group>"; };
+		524EC5CF1A94BDAC00A9A407 /* SLDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLDownloadManager.h; sourceTree = "<group>"; };
+		524EC5D01A94BDAC00A9A407 /* SLDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLDownloadManager.m; sourceTree = "<group>"; };
+		524EC5D11A94BDAC00A9A407 /* SLDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLDownloadOperation.h; sourceTree = "<group>"; };
+		524EC5D21A94BDAC00A9A407 /* SLDownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLDownloadOperation.m; sourceTree = "<group>"; };
+		524EC5D51A94BF2300A9A407 /* APLightConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLightConfiguration.h; sourceTree = "<group>"; };
+		524EC5D61A94BF2300A9A407 /* APLightConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLightConfiguration.m; sourceTree = "<group>"; };
+		524EC5DB1A94BF4700A9A407 /* APChannelConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APChannelConfiguration.h; sourceTree = "<group>"; };
+		524EC5DC1A94BF4700A9A407 /* APChannelConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APChannelConfiguration.m; sourceTree = "<group>"; };
+		524EC5DE1A94BF5D00A9A407 /* APLightConfiguration.model */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = APLightConfiguration.model; sourceTree = "<group>"; };
+		524EC5E01A94BFA300A9A407 /* APChannelConfiguration.model */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = APChannelConfiguration.model; sourceTree = "<group>"; };
+		525CEC231A5ABA710084B9C8 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		525CEC271A5ABD390084B9C8 /* APConnectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APConnectionViewController.h; path = "Login Management/APConnectionViewController.h"; sourceTree = SOURCE_ROOT; };
+		525CEC281A5ABD390084B9C8 /* APConnectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APConnectionViewController.m; path = "Login Management/APConnectionViewController.m"; sourceTree = SOURCE_ROOT; };
+		526028FE196DCA0E00ADECBF /* APDimmingSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APDimmingSwitch.h; path = Controls/APDimmingSwitch.h; sourceTree = SOURCE_ROOT; };
+		526028FF196DCA0E00ADECBF /* APDimmingSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APDimmingSwitch.m; path = Controls/APDimmingSwitch.m; sourceTree = SOURCE_ROOT; };
+		52640F501974046400C96A18 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		52640F511974046400C96A18 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		52640F521974046400C96A18 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		52640F531974046400C96A18 /* Roboto-BoldCondensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldCondensed.ttf"; sourceTree = "<group>"; };
+		52640F541974046400C96A18 /* Roboto-BoldCondensedItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldCondensedItalic.ttf"; sourceTree = "<group>"; };
+		52640F551974046400C96A18 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		52640F561974046400C96A18 /* Roboto-Condensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Condensed.ttf"; sourceTree = "<group>"; };
+		52640F571974046400C96A18 /* Roboto-CondensedItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-CondensedItalic.ttf"; sourceTree = "<group>"; };
+		52640F581974046400C96A18 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		52640F591974046400C96A18 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		52640F5A1974046400C96A18 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		52640F5B1974046400C96A18 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		52640F5C1974046400C96A18 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		52640F5D1974046400C96A18 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		52640F5E1974046400C96A18 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		52640F5F1974046400C96A18 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		5269986119702238001E5C7C /* APImageManipulationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APImageManipulationFactory.h; sourceTree = "<group>"; };
+		5269986219702238001E5C7C /* APImageManipulationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APImageManipulationFactory.m; sourceTree = "<group>"; };
+		5269986419702958001E5C7C /* APRotationGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APRotationGestureRecognizer.h; sourceTree = "<group>"; };
+		5269986519702958001E5C7C /* APRotationGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APRotationGestureRecognizer.m; sourceTree = "<group>"; };
+		5277B432194069A0001CDA97 /* icon_impressum@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_impressum@2x.png"; sourceTree = "<group>"; };
+		5277B433194069A0001CDA97 /* icon_navigation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_navigation@2x.png"; sourceTree = "<group>"; };
+		5277B43719406B08001CDA97 /* APGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APGraphView.h; sourceTree = "<group>"; };
+		5277B43819406B08001CDA97 /* APGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APGraphView.m; sourceTree = "<group>"; };
+		527AF2BE1976A92E00E00C62 /* APControlScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APControlScrollViewController.h; sourceTree = "<group>"; };
+		527AF2BF1976A92E00E00C62 /* APControlScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APControlScrollViewController.m; sourceTree = "<group>"; };
+		527D93C7193F2B030071A63E /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		527E58F51A9F5074007D1E59 /* Fluval.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fluval.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		527E58F61A9F5074007D1E59 /* Fluval.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Fluval.plist; path = "/Users/Nyx/Development/ISIS IC GmbH/EconluxApp/Fluval.plist"; sourceTree = "<absolute>"; };
+		527E58F71A9F5107007D1E59 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Fluval/Images.xcassets; sourceTree = "<group>"; };
+		527E58F91A9F511C007D1E59 /* Shared.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Shared.xcassets; sourceTree = "<group>"; };
+		52862FC61A5D642900429715 /* APRadialColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APRadialColorPickerViewController.h; sourceTree = "<group>"; };
+		52862FC71A5D642900429715 /* APRadialColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APRadialColorPickerViewController.m; sourceTree = "<group>"; };
+		5289223D18F6BE9800F6009D /* Econlux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Econlux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5289224018F6BE9800F6009D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5289224218F6BE9800F6009D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5289224418F6BE9800F6009D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5289224618F6BE9800F6009D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5289224A18F6BE9800F6009D /* EconluxApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EconluxApp-Info.plist"; sourceTree = "<group>"; };
+		5289224C18F6BE9800F6009D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5289224E18F6BE9800F6009D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5289225018F6BE9800F6009D /* EconluxApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EconluxApp-Prefix.pch"; sourceTree = "<group>"; };
+		5289225118F6BE9800F6009D /* APAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APAppDelegate.h; sourceTree = "<group>"; };
+		5289225218F6BE9800F6009D /* APAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APAppDelegate.m; sourceTree = "<group>"; };
+		5289225518F6BE9800F6009D /* EconluxApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EconluxApp.xcdatamodel; sourceTree = "<group>"; };
+		5289225718F6BE9800F6009D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5289225E18F6BE9800F6009D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5289227518F6BECD00F6009D /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5289227A18F6C14400F6009D /* APChannelRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APChannelRootViewController.h; sourceTree = "<group>"; };
+		5289227B18F6C14400F6009D /* APChannelRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APChannelRootViewController.m; sourceTree = "<group>"; };
+		5290CE76196C1AE800E54CBF /* APRemoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APRemoteViewController.h; sourceTree = "<group>"; };
+		5290CE77196C1AE800E54CBF /* APRemoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APRemoteViewController.m; sourceTree = "<group>"; };
+		5292FC1F1A62A19E00341609 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		52A56FF919772257002DC1EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; usesTabs = 0; };
+		52A687371950F3FF00115E1C /* APBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APBaseViewController.h; path = Generics/APBaseViewController.h; sourceTree = "<group>"; };
+		52A687381950F3FF00115E1C /* APBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APBaseViewController.m; path = Generics/APBaseViewController.m; sourceTree = "<group>"; };
+		52A876491957779A00CAE1DB /* APPhaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPhaseTableViewCell.h; sourceTree = "<group>"; };
+		52A8764A1957779A00CAE1DB /* APPhaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPhaseTableViewCell.m; sourceTree = "<group>"; };
+		52C7E9291941B66B00AF2EDF /* APChannelDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APChannelDetailViewController.h; sourceTree = "<group>"; };
+		52C7E92A1941B66B00AF2EDF /* APChannelDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APChannelDetailViewController.m; sourceTree = "<group>"; };
+		52CC3808196992FC00CF8579 /* APConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APConnectionManager.h; sourceTree = "<group>"; };
+		52CC3809196992FC00CF8579 /* APConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APConnectionManager.m; sourceTree = "<group>"; };
+		52D012EC195986D900A503F5 /* phases_config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = phases_config.json; sourceTree = "<group>"; };
+		52E0EA7119705CF5005EE73A /* close_new@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_new@2x.png"; sourceTree = "<group>"; };
+		52E6D7E31AA0882B00248DB2 /* APGatewayModeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APGatewayModeView.h; sourceTree = "<group>"; };
+		52E6D7E41AA0882B00248DB2 /* APGatewayModeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APGatewayModeView.m; sourceTree = "<group>"; };
+		52EC6EEE195877ED00892885 /* APColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APColorPicker.h; sourceTree = "<group>"; };
+		52EC6EEF195877ED00892885 /* APColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APColorPicker.m; sourceTree = "<group>"; };
+		52EC6EF21958AA8600892885 /* RMDownloadIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMDownloadIndicator.h; sourceTree = "<group>"; };
+		52EC6EF31958AA8600892885 /* RMDownloadIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMDownloadIndicator.m; sourceTree = "<group>"; };
+		52EC6EF51958AADD00892885 /* RMDisplayLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMDisplayLabel.h; sourceTree = "<group>"; };
+		52EC6EF61958AADD00892885 /* RMDisplayLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMDisplayLabel.m; sourceTree = "<group>"; };
+		52EDE1291941AF17003A82C3 /* Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Categories.h; path = KPTimePicker/KPTimePicker/Categories.h; sourceTree = SOURCE_ROOT; };
+		52EDE12A1941AF17003A82C3 /* Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Categories.m; path = KPTimePicker/KPTimePicker/Categories.m; sourceTree = SOURCE_ROOT; };
+		52EDE12C1941AF17003A82C3 /* checkmark_icon_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark_icon_white.png; sourceTree = "<group>"; };
+		52EDE12D1941AF17003A82C3 /* checkmark_icon_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark_icon_white@2x.png"; sourceTree = "<group>"; };
+		52EDE12E1941AF17003A82C3 /* picker_wheel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "picker_wheel@2x.png"; sourceTree = "<group>"; };
+		52EDE12F1941AF17003A82C3 /* picker_wheel_ip4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picker_wheel_ip4.png; sourceTree = "<group>"; };
+		52EDE1301941AF17003A82C3 /* picker_wheel_ip4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "picker_wheel_ip4@2x.png"; sourceTree = "<group>"; };
+		52EDE1311941AF17003A82C3 /* round_backarrow_big-high.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "round_backarrow_big-high.png"; sourceTree = "<group>"; };
+		52EDE1321941AF17003A82C3 /* round_backarrow_big-high@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "round_backarrow_big-high@2x.png"; sourceTree = "<group>"; };
+		52EDE1331941AF17003A82C3 /* round_backarrow_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = round_backarrow_big.png; sourceTree = "<group>"; };
+		52EDE1341941AF17003A82C3 /* round_backarrow_big@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "round_backarrow_big@2x.png"; sourceTree = "<group>"; };
+		52EDE1351941AF17003A82C3 /* schedule_image_moon-high.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "schedule_image_moon-high.png"; sourceTree = "<group>"; };
+		52EDE1361941AF17003A82C3 /* schedule_image_moon-high@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "schedule_image_moon-high@2x.png"; sourceTree = "<group>"; };
+		52EDE1371941AF17003A82C3 /* schedule_image_sun-high.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "schedule_image_sun-high.png"; sourceTree = "<group>"; };
+		52EDE1381941AF17003A82C3 /* schedule_image_sun-high@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "schedule_image_sun-high@2x.png"; sourceTree = "<group>"; };
+		52EDE1391941AF17003A82C3 /* KPTimePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KPTimePicker.h; path = KPTimePicker/KPTimePicker/KPTimePicker.h; sourceTree = SOURCE_ROOT; };
+		52EDE13A1941AF17003A82C3 /* KPTimePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KPTimePicker.m; path = KPTimePicker/KPTimePicker/KPTimePicker.m; sourceTree = SOURCE_ROOT; };
+		52FF64F41A9BB67F0069DAC4 /* APLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLogger.h; sourceTree = "<group>"; };
+		52FF64F51A9BB67F0069DAC4 /* APLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLogger.m; sourceTree = "<group>"; };
+		52FF996C1A87EE140053DEED /* APNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APNavigationController.h; sourceTree = "<group>"; };
+		52FF996D1A87EE140053DEED /* APNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APNavigationController.m; sourceTree = "<group>"; };
+		631FBB852BF755CC4D0F5128 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		670D0A291B43CB6C00CF0823 /* 753-signpost@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "753-signpost@2x.png"; path = "Glyphish/753-signpost@2x.png"; sourceTree = "<group>"; };
+		670D0A2C1B43D6C200CF0823 /* 744-locked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "744-locked.png"; path = "Glyphish/744-locked.png"; sourceTree = "<group>"; };
+		6710CD361B297D3200CA9775 /* APTimePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APTimePickerViewController.h; path = APTimePicker/APTimePickerViewController.h; sourceTree = SOURCE_ROOT; };
+		6710CD371B297D3200CA9775 /* APTimePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APTimePickerViewController.m; path = APTimePicker/APTimePickerViewController.m; sourceTree = SOURCE_ROOT; };
+		6710CD3A1B297DB300CA9775 /* UIView+Border.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Border.h"; sourceTree = SOURCE_ROOT; };
+		6710CD3B1B297DB300CA9775 /* UIView+Border.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Border.m"; sourceTree = SOURCE_ROOT; };
+		6710CD3E1B297E2700CA9775 /* APListSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APListSelectionViewController.h; path = "Picker View Controller/APListSelectionViewController.h"; sourceTree = SOURCE_ROOT; };
+		6710CD3F1B297E2700CA9775 /* APListSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APListSelectionViewController.m; path = "Picker View Controller/APListSelectionViewController.m"; sourceTree = SOURCE_ROOT; };
+		6710CD401B297E2700CA9775 /* APListSelectionViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = APListSelectionViewController.storyboard; path = "Picker View Controller/APListSelectionViewController.storyboard"; sourceTree = SOURCE_ROOT; };
+		6710FDB21B3C40B0006B3B2C /* EconluxConfigurationEnglish.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EconluxConfigurationEnglish.json; sourceTree = "<group>"; };
+		6710FDB31B3C40B0006B3B2C /* EconluxConfigurationGerman.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EconluxConfigurationGerman.json; sourceTree = "<group>"; };
+		6716062A1B4A83B0004F08DE /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		671BD5EF1BCD256D0053C24F /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		671BD5F01BCD256D0053C24F /* add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add@2x.png"; sourceTree = "<group>"; };
+		671BD5F51BCD2FC50053C24F /* handOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handOn.png; sourceTree = "<group>"; };
+		671BD5F61BCD2FC50053C24F /* handOn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "handOn@2x.png"; sourceTree = "<group>"; };
+		674AA3331C6DCC6700355C80 /* EconluxConfigurationFrance.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EconluxConfigurationFrance.json; sourceTree = "<group>"; };
+		679D202B1B42CDD500939A72 /* Fluval_Hintergrund.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fluval_Hintergrund.jpg; sourceTree = "<group>"; };
+		679D202C1B42CDD500939A72 /* fluval_schriftzug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fluval_schriftzug.png; sourceTree = "<group>"; };
+		679D20311B42D10900939A72 /* fluval_hintergrund+schriftzug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fluval_hintergrund+schriftzug.png"; sourceTree = "<group>"; };
+		679D20341B42D9FB00939A72 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		679D203A1B42DC8100939A72 /* 742-wrench@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "742-wrench@2x.png"; path = "Glyphish/742-wrench@2x.png"; sourceTree = "<group>"; };
+		679D20461B42DCD200939A72 /* 706-cloud@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "706-cloud@2x.png"; path = "Glyphish/706-cloud@2x.png"; sourceTree = "<group>"; };
+		679D20491B42DEEE00939A72 /* 846-sun-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "846-sun-1@2x.png"; path = "Glyphish/846-sun-1@2x.png"; sourceTree = "<group>"; };
+		679D204C1B42DF5900939A72 /* 734-chat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "734-chat@2x.png"; path = "Glyphish/734-chat@2x.png"; sourceTree = "<group>"; };
+		679D204F1B42DF6E00939A72 /* 856-lightning-bolt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "856-lightning-bolt@2x.png"; path = "Glyphish/856-lightning-bolt@2x.png"; sourceTree = "<group>"; };
+		679D20521B42DF9700939A72 /* 744-locked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "744-locked@2x.png"; path = "Glyphish/744-locked@2x.png"; sourceTree = "<group>"; };
+		67DAEA311B3A86AA00568417 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		67E2A4E01C1EBE5B0083FC1E /* fr */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DB04570446A640D29C9804A8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0DE466B5603E1FC7C3F1123 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		527E58AD1A9F5074007D1E59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527E58AE1A9F5074007D1E59 /* CoreGraphics.framework in Frameworks */,
+				527E58AF1A9F5074007D1E59 /* CoreData.framework in Frameworks */,
+				527E58B01A9F5074007D1E59 /* UIKit.framework in Frameworks */,
+				527E58B11A9F5074007D1E59 /* Foundation.framework in Frameworks */,
+				527E58B21A9F5074007D1E59 /* Crashlytics.framework in Frameworks */,
+				527E58B31A9F5074007D1E59 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5289223A18F6BE9800F6009D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5289224318F6BE9800F6009D /* CoreGraphics.framework in Frameworks */,
+				5289224718F6BE9800F6009D /* CoreData.framework in Frameworks */,
+				5289224518F6BE9800F6009D /* UIKit.framework in Frameworks */,
+				5289224118F6BE9800F6009D /* Foundation.framework in Frameworks */,
+				5292FC201A62A19E00341609 /* Crashlytics.framework in Frameworks */,
+				A12567015DF04181BDF21736 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5207A8891A867A0100A7DD9F /* Light Management */ = {
+			isa = PBXGroup;
+			children = (
+				5207A88A1A867A2C00A7DD9F /* APLightsTableViewController.h */,
+				5207A88B1A867A2C00A7DD9F /* APLightsTableViewController.m */,
+				52E6D7E31AA0882B00248DB2 /* APGatewayModeView.h */,
+				52E6D7E41AA0882B00248DB2 /* APGatewayModeView.m */,
+				523BFF971A869AF9007E7FAD /* APLightCreationTableViewController.h */,
+				523BFF981A869AF9007E7FAD /* APLightCreationTableViewController.m */,
+				523FD7A51A877F350042AF41 /* APLightDetailTableViewController.h */,
+				523FD7A61A877F350042AF41 /* APLightDetailTableViewController.m */,
+			);
+			name = "Light Management";
+			sourceTree = "<group>";
+		};
+		52088857193E773800B54CB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				524EC5CA1A94BC8900A9A407 /* Product Configurations */,
+				523FD7C31A87AD940042AF41 /* _APChannel.h */,
+				523FD7C41A87AD940042AF41 /* _APChannel.m */,
+				523FD7C51A87AD940042AF41 /* _APGateway.h */,
+				523FD7C61A87AD940042AF41 /* _APGateway.m */,
+				523FD7C71A87AD940042AF41 /* _APLight.h */,
+				523FD7C81A87AD940042AF41 /* _APLight.m */,
+				523FD7C91A87AD940042AF41 /* _APPhase.h */,
+				523FD7CA1A87AD940042AF41 /* _APPhase.m */,
+				523FD7CB1A87AD940042AF41 /* APChannel.h */,
+				523FD7CC1A87AD940042AF41 /* APChannel.m */,
+				523FD7CD1A87AD940042AF41 /* APGateway.h */,
+				523FD7CE1A87AD940042AF41 /* APGateway.m */,
+				523FD7CF1A87AD940042AF41 /* APLight.h */,
+				523FD7D01A87AD940042AF41 /* APLight.m */,
+				523FD7D11A87AD940042AF41 /* APPhase.h */,
+				523FD7D21A87AD940042AF41 /* APPhase.m */,
+			);
+			name = Models;
+			path = EconluxApp/Models;
+			sourceTree = "<group>";
+		};
+		524374601A837C6B00A17284 /* Settings Menu */ = {
+			isa = PBXGroup;
+			children = (
+				524374611A837C9500A17284 /* APSettingsTableViewController.h */,
+				524374621A837C9500A17284 /* APSettingsTableViewController.m */,
+			);
+			name = "Settings Menu";
+			sourceTree = "<group>";
+		};
+		524EC5CA1A94BC8900A9A407 /* Product Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				674AA3331C6DCC6700355C80 /* EconluxConfigurationFrance.json */,
+				6710FDB21B3C40B0006B3B2C /* EconluxConfigurationEnglish.json */,
+				6710FDB31B3C40B0006B3B2C /* EconluxConfigurationGerman.json */,
+				524EC5CE1A94BDAC00A9A407 /* Requirements */,
+				524EC5CB1A94BCCA00A9A407 /* APJSONModel.h */,
+				524EC5CC1A94BCCA00A9A407 /* APJSONModel.m */,
+				524EC5D51A94BF2300A9A407 /* APLightConfiguration.h */,
+				524EC5D61A94BF2300A9A407 /* APLightConfiguration.m */,
+				524EC5DE1A94BF5D00A9A407 /* APLightConfiguration.model */,
+				524EC5DB1A94BF4700A9A407 /* APChannelConfiguration.h */,
+				524EC5DC1A94BF4700A9A407 /* APChannelConfiguration.m */,
+				524EC5E01A94BFA300A9A407 /* APChannelConfiguration.model */,
+			);
+			name = "Product Configurations";
+			sourceTree = "<group>";
+		};
+		524EC5CE1A94BDAC00A9A407 /* Requirements */ = {
+			isa = PBXGroup;
+			children = (
+				524EC5CF1A94BDAC00A9A407 /* SLDownloadManager.h */,
+				524EC5D01A94BDAC00A9A407 /* SLDownloadManager.m */,
+				524EC5D11A94BDAC00A9A407 /* SLDownloadOperation.h */,
+				524EC5D21A94BDAC00A9A407 /* SLDownloadOperation.m */,
+			);
+			name = Requirements;
+			path = "../../../../###APSharedSources/JSON Model/Requirements";
+			sourceTree = "<group>";
+		};
+		525CEC221A5ABA470084B9C8 /* Login Management */ = {
+			isa = PBXGroup;
+			children = (
+				525CEC231A5ABA710084B9C8 /* Login.storyboard */,
+				525CEC271A5ABD390084B9C8 /* APConnectionViewController.h */,
+				525CEC281A5ABD390084B9C8 /* APConnectionViewController.m */,
+			);
+			name = "Login Management";
+			sourceTree = "<group>";
+		};
+		52640F4E1974046400C96A18 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				52640F4F1974046400C96A18 /* Roboto */,
+			);
+			path = Fonts;
+			sourceTree = SOURCE_ROOT;
+		};
+		52640F4F1974046400C96A18 /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				52640F501974046400C96A18 /* Roboto-Black.ttf */,
+				52640F511974046400C96A18 /* Roboto-BlackItalic.ttf */,
+				52640F521974046400C96A18 /* Roboto-Bold.ttf */,
+				52640F531974046400C96A18 /* Roboto-BoldCondensed.ttf */,
+				52640F541974046400C96A18 /* Roboto-BoldCondensedItalic.ttf */,
+				52640F551974046400C96A18 /* Roboto-BoldItalic.ttf */,
+				52640F561974046400C96A18 /* Roboto-Condensed.ttf */,
+				52640F571974046400C96A18 /* Roboto-CondensedItalic.ttf */,
+				52640F581974046400C96A18 /* Roboto-Italic.ttf */,
+				52640F591974046400C96A18 /* Roboto-Light.ttf */,
+				52640F5A1974046400C96A18 /* Roboto-LightItalic.ttf */,
+				52640F5B1974046400C96A18 /* Roboto-Medium.ttf */,
+				52640F5C1974046400C96A18 /* Roboto-MediumItalic.ttf */,
+				52640F5D1974046400C96A18 /* Roboto-Regular.ttf */,
+				52640F5E1974046400C96A18 /* Roboto-Thin.ttf */,
+				52640F5F1974046400C96A18 /* Roboto-ThinItalic.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		5269986019702238001E5C7C /* AppPilots GbR */ = {
+			isa = PBXGroup;
+			children = (
+				5269986119702238001E5C7C /* APImageManipulationFactory.h */,
+				5269986219702238001E5C7C /* APImageManipulationFactory.m */,
+			);
+			path = "AppPilots GbR";
+			sourceTree = "<group>";
+		};
+		5277B42D19406985001CDA97 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				671BD5EF1BCD256D0053C24F /* add.png */,
+				671BD5F01BCD256D0053C24F /* add@2x.png */,
+				670D0A2C1B43D6C200CF0823 /* 744-locked.png */,
+				671BD5F51BCD2FC50053C24F /* handOn.png */,
+				671BD5F61BCD2FC50053C24F /* handOn@2x.png */,
+				6716062A1B4A83B0004F08DE /* close.png */,
+				679D20521B42DF9700939A72 /* 744-locked@2x.png */,
+				679D204F1B42DF6E00939A72 /* 856-lightning-bolt@2x.png */,
+				679D204C1B42DF5900939A72 /* 734-chat@2x.png */,
+				679D20491B42DEEE00939A72 /* 846-sun-1@2x.png */,
+				679D20461B42DCD200939A72 /* 706-cloud@2x.png */,
+				670D0A291B43CB6C00CF0823 /* 753-signpost@2x.png */,
+				679D203A1B42DC8100939A72 /* 742-wrench@2x.png */,
+				679D202A1B42CDD500939A72 /* ImageLogin */,
+				524308D619740E580024E63D /* hintergrund@2x.png */,
+				524308D419740CE70024E63D /* dimmer_knopf@2x.png */,
+				524308CC19740CDC0024E63D /* lightbulb_off@2x.png */,
+				524308CD19740CDC0024E63D /* lightbulb_on@2x.png */,
+				524308CE19740CDC0024E63D /* on_off_switch_back@2x.png */,
+				524308CF19740CDC0024E63D /* switch@2x.png */,
+				52E0EA7119705CF5005EE73A /* close_new@2x.png */,
+				520FD916196D51D0002EC9F2 /* 832-pencil.png */,
+				520FD917196D51D0002EC9F2 /* 832-pencil@2x.png */,
+				520FD912196D51C7002EC9F2 /* 816-satellite.png */,
+				520FD913196D51C7002EC9F2 /* 816-satellite@2x.png */,
+				524308D8197420810024E63D /* 861-sun-2.png */,
+				524308D9197420810024E63D /* 861-sun-2@2x.png */,
+				524308DC197420940024E63D /* 740-gear.png */,
+				524308DD197420940024E63D /* 740-gear@2x.png */,
+				524308E0197420E80024E63D /* 811-download-box.png */,
+				524308E1197420E80024E63D /* 811-download-box@2x.png */,
+				5277B432194069A0001CDA97 /* icon_impressum@2x.png */,
+				5277B433194069A0001CDA97 /* icon_navigation@2x.png */,
+			);
+			path = Icons;
+			sourceTree = SOURCE_ROOT;
+		};
+		5277B43619406AF6001CDA97 /* Time Graph  */ = {
+			isa = PBXGroup;
+			children = (
+				5277B43719406B08001CDA97 /* APGraphView.h */,
+				5277B43819406B08001CDA97 /* APGraphView.m */,
+			);
+			name = "Time Graph ";
+			sourceTree = "<group>";
+		};
+		52862FC51A5D641000429715 /* Radial Color Picker */ = {
+			isa = PBXGroup;
+			children = (
+				52862FC61A5D642900429715 /* APRadialColorPickerViewController.h */,
+				52862FC71A5D642900429715 /* APRadialColorPickerViewController.m */,
+			);
+			name = "Radial Color Picker";
+			sourceTree = "<group>";
+		};
+		5289223418F6BE9800F6009D = {
+			isa = PBXGroup;
+			children = (
+				5289224818F6BE9800F6009D /* EconluxApp */,
+				52088857193E773800B54CB8 /* Models */,
+				5289224918F6BE9800F6009D /* Supporting Files */,
+				5289223F18F6BE9800F6009D /* Frameworks */,
+				5289223E18F6BE9800F6009D /* Products */,
+				B1D93D7F42C7921A665B8E8A /* Pods */,
+				527E58F61A9F5074007D1E59 /* Fluval.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		5289223E18F6BE9800F6009D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5289223D18F6BE9800F6009D /* Econlux.app */,
+				527E58F51A9F5074007D1E59 /* Fluval.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5289223F18F6BE9800F6009D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5269986019702238001E5C7C /* AppPilots GbR */,
+				5292FC1F1A62A19E00341609 /* Crashlytics.framework */,
+				5289224018F6BE9800F6009D /* Foundation.framework */,
+				5289224218F6BE9800F6009D /* CoreGraphics.framework */,
+				5289224418F6BE9800F6009D /* UIKit.framework */,
+				5289224618F6BE9800F6009D /* CoreData.framework */,
+				5289225E18F6BE9800F6009D /* XCTest.framework */,
+				DB04570446A640D29C9804A8 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5289224818F6BE9800F6009D /* EconluxApp */ = {
+			isa = PBXGroup;
+			children = (
+				5289225018F6BE9800F6009D /* EconluxApp-Prefix.pch */,
+				5289225118F6BE9800F6009D /* APAppDelegate.h */,
+				5289225218F6BE9800F6009D /* APAppDelegate.m */,
+				52FF64F41A9BB67F0069DAC4 /* APLogger.h */,
+				52FF64F51A9BB67F0069DAC4 /* APLogger.m */,
+				5289227518F6BECD00F6009D /* MainStoryboard.storyboard */,
+				52CC3807196992EE00CF8579 /* Network Management */,
+				5207A8891A867A0100A7DD9F /* Light Management */,
+				52D7775B1959DF740076A3FD /* Channel Management */,
+				5277B43619406AF6001CDA97 /* Time Graph  */,
+				524374601A837C6B00A17284 /* Settings Menu */,
+				525CEC221A5ABA470084B9C8 /* Login Management */,
+			);
+			path = EconluxApp;
+			sourceTree = "<group>";
+		};
+		5289224918F6BE9800F6009D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52B620831A8260A600C58D07 /* Shared Sources */,
+				527E58F91A9F511C007D1E59 /* Shared.xcassets */,
+				5289225718F6BE9800F6009D /* Images.xcassets */,
+				527E58F71A9F5107007D1E59 /* Images.xcassets */,
+				5289225418F6BE9800F6009D /* EconluxApp.xcdatamodeld */,
+				52D012EC195986D900A503F5 /* phases_config.json */,
+				52A687371950F3FF00115E1C /* APBaseViewController.h */,
+				52A687381950F3FF00115E1C /* APBaseViewController.m */,
+				52FF996C1A87EE140053DEED /* APNavigationController.h */,
+				52FF996D1A87EE140053DEED /* APNavigationController.m */,
+				52A56FF119771D3A002DC1EC /* Languages */,
+				52EC6EED195877ED00892885 /* ColorPicker */,
+				52640F4E1974046400C96A18 /* Fonts */,
+				52EC6EF11958AA8600892885 /* RMProgressView */,
+				52EDE14A1941B2E5003A82C3 /* APTimePicker */,
+				5277B42D19406985001CDA97 /* Icons */,
+				527D93C7193F2B030071A63E /* FontAwesome.otf */,
+				5289224A18F6BE9800F6009D /* EconluxApp-Info.plist */,
+				5289224B18F6BE9800F6009D /* InfoPlist.strings */,
+				5289224E18F6BE9800F6009D /* main.m */,
+			);
+			name = "Supporting Files";
+			path = EconluxApp;
+			sourceTree = "<group>";
+		};
+		5290CE75196C1AD800E54CBF /* Remote Control */ = {
+			isa = PBXGroup;
+			children = (
+				526028FE196DCA0E00ADECBF /* APDimmingSwitch.h */,
+				526028FF196DCA0E00ADECBF /* APDimmingSwitch.m */,
+				5290CE76196C1AE800E54CBF /* APRemoteViewController.h */,
+				5290CE77196C1AE800E54CBF /* APRemoteViewController.m */,
+				5269986419702958001E5C7C /* APRotationGestureRecognizer.h */,
+				5269986519702958001E5C7C /* APRotationGestureRecognizer.m */,
+				527AF2BE1976A92E00E00C62 /* APControlScrollViewController.h */,
+				527AF2BF1976A92E00E00C62 /* APControlScrollViewController.m */,
+			);
+			name = "Remote Control";
+			sourceTree = "<group>";
+		};
+		52A56FF119771D3A002DC1EC /* Languages */ = {
+			isa = PBXGroup;
+			children = (
+				52A56FFA19772257002DC1EC /* Localizable.strings */,
+			);
+			path = Languages;
+			sourceTree = "<group>";
+		};
+		52A876481957778400CAE1DB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				52A876491957779A00CAE1DB /* APPhaseTableViewCell.h */,
+				52A8764A1957779A00CAE1DB /* APPhaseTableViewCell.m */,
+				5207A8931A8682F100A7DD9F /* APBaseTableViewCell.h */,
+				5207A8941A8682F100A7DD9F /* APBaseTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		52B620831A8260A600C58D07 /* Shared Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6710CD3A1B297DB300CA9775 /* UIView+Border.h */,
+				6710CD3B1B297DB300CA9775 /* UIView+Border.m */,
+				524374641A83862100A17284 /* APImageView.h */,
+				524374651A83862100A17284 /* APImageView.m */,
+				6710CD3E1B297E2700CA9775 /* APListSelectionViewController.h */,
+				6710CD3F1B297E2700CA9775 /* APListSelectionViewController.m */,
+				6710CD401B297E2700CA9775 /* APListSelectionViewController.storyboard */,
+			);
+			name = "Shared Sources";
+			sourceTree = "<group>";
+		};
+		52CC3807196992EE00CF8579 /* Network Management */ = {
+			isa = PBXGroup;
+			children = (
+				5226D9EF196FD94200F171F5 /* NSLinkedList.h */,
+				5226D9F0196FD94200F171F5 /* NSLinkedList.m */,
+				5226D9E9196FD16700F171F5 /* GCDAsyncSocket.h */,
+				5226D9EA196FD16700F171F5 /* GCDAsyncSocket.m */,
+				5226D9EC196FD21700F171F5 /* APGatewayConnector.h */,
+				5226D9ED196FD21700F171F5 /* APGatewayConnector.m */,
+				52CC3808196992FC00CF8579 /* APConnectionManager.h */,
+				52CC3809196992FC00CF8579 /* APConnectionManager.m */,
+				520F77A71A82422D009213C1 /* APCommand.h */,
+				520F77A81A82422D009213C1 /* APCommand.m */,
+			);
+			name = "Network Management";
+			sourceTree = "<group>";
+		};
+		52D7775B1959DF740076A3FD /* Channel Management */ = {
+			isa = PBXGroup;
+			children = (
+				52862FC51A5D641000429715 /* Radial Color Picker */,
+				5290CE75196C1AD800E54CBF /* Remote Control */,
+				52A876481957778400CAE1DB /* Cells */,
+				5289227A18F6C14400F6009D /* APChannelRootViewController.h */,
+				5289227B18F6C14400F6009D /* APChannelRootViewController.m */,
+				52C7E9291941B66B00AF2EDF /* APChannelDetailViewController.h */,
+				52C7E92A1941B66B00AF2EDF /* APChannelDetailViewController.m */,
+			);
+			name = "Channel Management";
+			sourceTree = "<group>";
+		};
+		52EC6EED195877ED00892885 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				52EC6EEE195877ED00892885 /* APColorPicker.h */,
+				52EC6EEF195877ED00892885 /* APColorPicker.m */,
+			);
+			name = ColorPicker;
+			path = "AppPilots GbR/ColorPicker";
+			sourceTree = "<group>";
+		};
+		52EC6EF11958AA8600892885 /* RMProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				52EC6EF21958AA8600892885 /* RMDownloadIndicator.h */,
+				52EC6EF31958AA8600892885 /* RMDownloadIndicator.m */,
+				52EC6EF51958AADD00892885 /* RMDisplayLabel.h */,
+				52EC6EF61958AADD00892885 /* RMDisplayLabel.m */,
+			);
+			name = RMProgressView;
+			path = "AppPilots GbR/RMProgressView";
+			sourceTree = "<group>";
+		};
+		52EDE12B1941AF17003A82C3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				52EDE12C1941AF17003A82C3 /* checkmark_icon_white.png */,
+				52EDE12D1941AF17003A82C3 /* checkmark_icon_white@2x.png */,
+				52EDE12E1941AF17003A82C3 /* picker_wheel@2x.png */,
+				52EDE12F1941AF17003A82C3 /* picker_wheel_ip4.png */,
+				52EDE1301941AF17003A82C3 /* picker_wheel_ip4@2x.png */,
+				52EDE1311941AF17003A82C3 /* round_backarrow_big-high.png */,
+				52EDE1321941AF17003A82C3 /* round_backarrow_big-high@2x.png */,
+				52EDE1331941AF17003A82C3 /* round_backarrow_big.png */,
+				52EDE1341941AF17003A82C3 /* round_backarrow_big@2x.png */,
+				52EDE1351941AF17003A82C3 /* schedule_image_moon-high.png */,
+				52EDE1361941AF17003A82C3 /* schedule_image_moon-high@2x.png */,
+				52EDE1371941AF17003A82C3 /* schedule_image_sun-high.png */,
+				52EDE1381941AF17003A82C3 /* schedule_image_sun-high@2x.png */,
+			);
+			name = Images;
+			path = KPTimePicker/KPTimePicker/Images;
+			sourceTree = SOURCE_ROOT;
+		};
+		52EDE14A1941B2E5003A82C3 /* APTimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				52EDE12B1941AF17003A82C3 /* Images */,
+				52EDE1291941AF17003A82C3 /* Categories.h */,
+				52EDE12A1941AF17003A82C3 /* Categories.m */,
+				52EDE1391941AF17003A82C3 /* KPTimePicker.h */,
+				52EDE13A1941AF17003A82C3 /* KPTimePicker.m */,
+				6710CD361B297D3200CA9775 /* APTimePickerViewController.h */,
+				6710CD371B297D3200CA9775 /* APTimePickerViewController.m */,
+			);
+			name = APTimePicker;
+			sourceTree = "<group>";
+		};
+		679D202A1B42CDD500939A72 /* ImageLogin */ = {
+			isa = PBXGroup;
+			children = (
+				679D20341B42D9FB00939A72 /* bg.png */,
+				679D20311B42D10900939A72 /* fluval_hintergrund+schriftzug.png */,
+				679D202B1B42CDD500939A72 /* Fluval_Hintergrund.jpg */,
+				679D202C1B42CDD500939A72 /* fluval_schriftzug.png */,
+			);
+			path = ImageLogin;
+			sourceTree = "<group>";
+		};
+		B1D93D7F42C7921A665B8E8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				631FBB852BF755CC4D0F5128 /* Pods.debug.xcconfig */,
+				E0DE466B5603E1FC7C3F1123 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		527E58781A9F5074007D1E59 /* Fluval */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527E58F21A9F5074007D1E59 /* Build configuration list for PBXNativeTarget "Fluval" */;
+			buildPhases = (
+				527E58791A9F5074007D1E59 /* Check Pods Manifest.lock */,
+				527E587A1A9F5074007D1E59 /* Sources */,
+				527E58AD1A9F5074007D1E59 /* Frameworks */,
+				527E58B41A9F5074007D1E59 /* Resources */,
+				527E58F01A9F5074007D1E59 /* Copy Pods Resources */,
+				527E58F11A9F5074007D1E59 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fluval;
+			productName = EconluxApp;
+			productReference = 527E58F51A9F5074007D1E59 /* Fluval.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5289223C18F6BE9800F6009D /* Econlux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5289226F18F6BE9800F6009D /* Build configuration list for PBXNativeTarget "Econlux" */;
+			buildPhases = (
+				2C90F397EDB94523AB3801BE /* Check Pods Manifest.lock */,
+				5289223918F6BE9800F6009D /* Sources */,
+				5289223A18F6BE9800F6009D /* Frameworks */,
+				5289223B18F6BE9800F6009D /* Resources */,
+				74213979B0FF4D23BBFF2513 /* Copy Pods Resources */,
+				527D93C9193F2B3C0071A63E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Econlux;
+			productName = EconluxApp;
+			productReference = 5289223D18F6BE9800F6009D /* Econlux.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5289223518F6BE9800F6009D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "AppPilots GbR";
+				TargetAttributes = {
+					527E58781A9F5074007D1E59 = {
+						DevelopmentTeam = VS9QL3ZC89;
+						ProvisioningStyle = Automatic;
+					};
+					5289223C18F6BE9800F6009D = {
+						DevelopmentTeam = 7M3ZKLFC83;
+					};
+				};
+			};
+			buildConfigurationList = 5289223818F6BE9800F6009D /* Build configuration list for PBXProject "EconluxApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				de,
+				fr,
+			);
+			mainGroup = 5289223418F6BE9800F6009D;
+			productRefGroup = 5289223E18F6BE9800F6009D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5289223C18F6BE9800F6009D /* Econlux */,
+				527E58781A9F5074007D1E59 /* Fluval */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		527E58B41A9F5074007D1E59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527E58B51A9F5074007D1E59 /* 816-satellite.png in Resources */,
+				527E58B61A9F5074007D1E59 /* 861-sun-2@2x.png in Resources */,
+				679D20361B42D9FB00939A72 /* bg.png in Resources */,
+				679D204E1B42DF5900939A72 /* 734-chat@2x.png in Resources */,
+				679D202E1B42CDD500939A72 /* Fluval_Hintergrund.jpg in Resources */,
+				527E58B71A9F5074007D1E59 /* MainStoryboard.storyboard in Resources */,
+				527E58B81A9F5074007D1E59 /* checkmark_icon_white@2x.png in Resources */,
+				671BD5FA1BCD2FC50053C24F /* handOn@2x.png in Resources */,
+				527E58B91A9F5074007D1E59 /* Roboto-BoldCondensedItalic.ttf in Resources */,
+				679D20541B42DF9700939A72 /* 744-locked@2x.png in Resources */,
+				679D20331B42D10900939A72 /* fluval_hintergrund+schriftzug.png in Resources */,
+				527E58BA1A9F5074007D1E59 /* 832-pencil@2x.png in Resources */,
+				527E58BB1A9F5074007D1E59 /* round_backarrow_big-high@2x.png in Resources */,
+				6710FDB71B3C40B0006B3B2C /* EconluxConfigurationGerman.json in Resources */,
+				527E58BC1A9F5074007D1E59 /* Localizable.strings in Resources */,
+				527E58BD1A9F5074007D1E59 /* 740-gear@2x.png in Resources */,
+				6710CD441B297E2700CA9775 /* APListSelectionViewController.storyboard in Resources */,
+				527E58BF1A9F5074007D1E59 /* Roboto-Black.ttf in Resources */,
+				527E58C01A9F5074007D1E59 /* dimmer_knopf@2x.png in Resources */,
+				527E58C11A9F5074007D1E59 /* lightbulb_off@2x.png in Resources */,
+				6710FDB51B3C40B0006B3B2C /* EconluxConfigurationEnglish.json in Resources */,
+				527E58C21A9F5074007D1E59 /* schedule_image_moon-high@2x.png in Resources */,
+				527E58C31A9F5074007D1E59 /* 811-download-box.png in Resources */,
+				527E58C41A9F5074007D1E59 /* lightbulb_on@2x.png in Resources */,
+				527E58C51A9F5074007D1E59 /* switch@2x.png in Resources */,
+				679D20301B42CDD500939A72 /* fluval_schriftzug.png in Resources */,
+				527E58C61A9F5074007D1E59 /* Roboto-Thin.ttf in Resources */,
+				527E58C71A9F5074007D1E59 /* Roboto-BlackItalic.ttf in Resources */,
+				671BD5F41BCD256D0053C24F /* add@2x.png in Resources */,
+				527E58C81A9F5074007D1E59 /* schedule_image_moon-high.png in Resources */,
+				527E58C91A9F5074007D1E59 /* InfoPlist.strings in Resources */,
+				527E58CA1A9F5074007D1E59 /* APChannelConfiguration.model in Resources */,
+				527E58CB1A9F5074007D1E59 /* hintergrund@2x.png in Resources */,
+				679D204B1B42DEEE00939A72 /* 846-sun-1@2x.png in Resources */,
+				527E58CC1A9F5074007D1E59 /* icon_navigation@2x.png in Resources */,
+				679D20481B42DCD200939A72 /* 706-cloud@2x.png in Resources */,
+				527E58CE1A9F5074007D1E59 /* Images.xcassets in Resources */,
+				527E58CF1A9F5074007D1E59 /* 740-gear.png in Resources */,
+				674AA3351C6DCC6700355C80 /* EconluxConfigurationFrance.json in Resources */,
+				527E58D01A9F5074007D1E59 /* Roboto-Condensed.ttf in Resources */,
+				527E58D11A9F5074007D1E59 /* close_new@2x.png in Resources */,
+				527E58D21A9F5074007D1E59 /* APLightConfiguration.model in Resources */,
+				527E58D31A9F5074007D1E59 /* schedule_image_sun-high@2x.png in Resources */,
+				527E58D41A9F5074007D1E59 /* round_backarrow_big@2x.png in Resources */,
+				527E58D51A9F5074007D1E59 /* Roboto-CondensedItalic.ttf in Resources */,
+				670D0A2B1B43CB6C00CF0823 /* 753-signpost@2x.png in Resources */,
+				679D203C1B42DC8100939A72 /* 742-wrench@2x.png in Resources */,
+				527E58D61A9F5074007D1E59 /* 816-satellite@2x.png in Resources */,
+				527E58D71A9F5074007D1E59 /* FontAwesome.otf in Resources */,
+				527E58D81A9F5074007D1E59 /* Roboto-BoldItalic.ttf in Resources */,
+				527E58D91A9F5074007D1E59 /* Roboto-Light.ttf in Resources */,
+				527E58DA1A9F5074007D1E59 /* 811-download-box@2x.png in Resources */,
+				527E58DB1A9F5074007D1E59 /* picker_wheel@2x.png in Resources */,
+				527E58DC1A9F5074007D1E59 /* picker_wheel_ip4@2x.png in Resources */,
+				527E58DD1A9F5074007D1E59 /* round_backarrow_big-high.png in Resources */,
+				527E58DE1A9F5074007D1E59 /* 832-pencil.png in Resources */,
+				527E58DF1A9F5074007D1E59 /* Roboto-BoldCondensed.ttf in Resources */,
+				527E58E01A9F5074007D1E59 /* 861-sun-2.png in Resources */,
+				527E58E11A9F5074007D1E59 /* checkmark_icon_white.png in Resources */,
+				527E58E21A9F5074007D1E59 /* on_off_switch_back@2x.png in Resources */,
+				527E58E31A9F5074007D1E59 /* phases_config.json in Resources */,
+				527E58E41A9F5074007D1E59 /* Login.storyboard in Resources */,
+				679D20511B42DF6E00939A72 /* 856-lightning-bolt@2x.png in Resources */,
+				527E58E51A9F5074007D1E59 /* Roboto-LightItalic.ttf in Resources */,
+				6716062C1B4A83B0004F08DE /* close.png in Resources */,
+				671BD5F21BCD256D0053C24F /* add.png in Resources */,
+				527E58E61A9F5074007D1E59 /* icon_impressum@2x.png in Resources */,
+				527E58E71A9F5074007D1E59 /* schedule_image_sun-high.png in Resources */,
+				527E58E81A9F5074007D1E59 /* Roboto-Italic.ttf in Resources */,
+				527E58E91A9F5074007D1E59 /* Roboto-Regular.ttf in Resources */,
+				527E58EA1A9F5074007D1E59 /* Roboto-Bold.ttf in Resources */,
+				671BD5F81BCD2FC50053C24F /* handOn.png in Resources */,
+				527E58EB1A9F5074007D1E59 /* Roboto-MediumItalic.ttf in Resources */,
+				527E58EC1A9F5074007D1E59 /* Roboto-Medium.ttf in Resources */,
+				527E58ED1A9F5074007D1E59 /* round_backarrow_big.png in Resources */,
+				670D0A2E1B43D6C200CF0823 /* 744-locked.png in Resources */,
+				527E58EE1A9F5074007D1E59 /* picker_wheel_ip4.png in Resources */,
+				527E58EF1A9F5074007D1E59 /* Roboto-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5289223B18F6BE9800F6009D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				679D20351B42D9FB00939A72 /* bg.png in Resources */,
+				520FD914196D51C7002EC9F2 /* 816-satellite.png in Resources */,
+				524308DB197420810024E63D /* 861-sun-2@2x.png in Resources */,
+				5289227618F6BECD00F6009D /* MainStoryboard.storyboard in Resources */,
+				52EDE13D1941AF17003A82C3 /* checkmark_icon_white@2x.png in Resources */,
+				679D203B1B42DC8100939A72 /* 742-wrench@2x.png in Resources */,
+				6710FDB61B3C40B0006B3B2C /* EconluxConfigurationGerman.json in Resources */,
+				52640F641974046400C96A18 /* Roboto-BoldCondensedItalic.ttf in Resources */,
+				520FD919196D51D0002EC9F2 /* 832-pencil@2x.png in Resources */,
+				52EDE1421941AF17003A82C3 /* round_backarrow_big-high@2x.png in Resources */,
+				6716062B1B4A83B0004F08DE /* close.png in Resources */,
+				52A56FF819772257002DC1EC /* Localizable.strings in Resources */,
+				671BD5F91BCD2FC50053C24F /* handOn@2x.png in Resources */,
+				524308DF197420940024E63D /* 740-gear@2x.png in Resources */,
+				679D20471B42DCD200939A72 /* 706-cloud@2x.png in Resources */,
+				679D204A1B42DEEE00939A72 /* 846-sun-1@2x.png in Resources */,
+				52640F601974046400C96A18 /* Roboto-Black.ttf in Resources */,
+				670D0A2A1B43CB6C00CF0823 /* 753-signpost@2x.png in Resources */,
+				524308D519740CE70024E63D /* dimmer_knopf@2x.png in Resources */,
+				524308D019740CDC0024E63D /* lightbulb_off@2x.png in Resources */,
+				52EDE1461941AF17003A82C3 /* schedule_image_moon-high@2x.png in Resources */,
+				524308E2197420E80024E63D /* 811-download-box.png in Resources */,
+				524308D119740CDC0024E63D /* lightbulb_on@2x.png in Resources */,
+				524308D319740CDC0024E63D /* switch@2x.png in Resources */,
+				679D20321B42D10900939A72 /* fluval_hintergrund+schriftzug.png in Resources */,
+				52640F6E1974046400C96A18 /* Roboto-Thin.ttf in Resources */,
+				52640F611974046400C96A18 /* Roboto-BlackItalic.ttf in Resources */,
+				52EDE1451941AF17003A82C3 /* schedule_image_moon-high.png in Resources */,
+				5289224D18F6BE9800F6009D /* InfoPlist.strings in Resources */,
+				527E58FB1A9F5149007D1E59 /* Images.xcassets in Resources */,
+				524EC5E11A94BFA300A9A407 /* APChannelConfiguration.model in Resources */,
+				524308D719740E580024E63D /* hintergrund@2x.png in Resources */,
+				5277B435194069A0001CDA97 /* icon_navigation@2x.png in Resources */,
+				527E58FA1A9F511C007D1E59 /* Shared.xcassets in Resources */,
+				524308DE197420940024E63D /* 740-gear.png in Resources */,
+				52640F661974046400C96A18 /* Roboto-Condensed.ttf in Resources */,
+				52E0EA7219705CF5005EE73A /* close_new@2x.png in Resources */,
+				674AA3341C6DCC6700355C80 /* EconluxConfigurationFrance.json in Resources */,
+				524EC5DF1A94BF5D00A9A407 /* APLightConfiguration.model in Resources */,
+				52EDE1481941AF17003A82C3 /* schedule_image_sun-high@2x.png in Resources */,
+				52EDE1441941AF17003A82C3 /* round_backarrow_big@2x.png in Resources */,
+				52640F671974046400C96A18 /* Roboto-CondensedItalic.ttf in Resources */,
+				520FD915196D51C7002EC9F2 /* 816-satellite@2x.png in Resources */,
+				679D20501B42DF6E00939A72 /* 856-lightning-bolt@2x.png in Resources */,
+				6710CD431B297E2700CA9775 /* APListSelectionViewController.storyboard in Resources */,
+				527D93C8193F2B030071A63E /* FontAwesome.otf in Resources */,
+				679D204D1B42DF5900939A72 /* 734-chat@2x.png in Resources */,
+				679D20531B42DF9700939A72 /* 744-locked@2x.png in Resources */,
+				52640F651974046400C96A18 /* Roboto-BoldItalic.ttf in Resources */,
+				670D0A2D1B43D6C200CF0823 /* 744-locked.png in Resources */,
+				52640F691974046400C96A18 /* Roboto-Light.ttf in Resources */,
+				524308E3197420E80024E63D /* 811-download-box@2x.png in Resources */,
+				52EDE13E1941AF17003A82C3 /* picker_wheel@2x.png in Resources */,
+				52EDE1401941AF17003A82C3 /* picker_wheel_ip4@2x.png in Resources */,
+				52EDE1411941AF17003A82C3 /* round_backarrow_big-high.png in Resources */,
+				520FD918196D51D0002EC9F2 /* 832-pencil.png in Resources */,
+				52640F631974046400C96A18 /* Roboto-BoldCondensed.ttf in Resources */,
+				524308DA197420810024E63D /* 861-sun-2.png in Resources */,
+				6710FDB41B3C40B0006B3B2C /* EconluxConfigurationEnglish.json in Resources */,
+				52EDE13C1941AF17003A82C3 /* checkmark_icon_white.png in Resources */,
+				679D202F1B42CDD500939A72 /* fluval_schriftzug.png in Resources */,
+				524308D219740CDC0024E63D /* on_off_switch_back@2x.png in Resources */,
+				679D202D1B42CDD500939A72 /* Fluval_Hintergrund.jpg in Resources */,
+				52D012ED195986D900A503F5 /* phases_config.json in Resources */,
+				525CEC241A5ABA720084B9C8 /* Login.storyboard in Resources */,
+				52640F6A1974046400C96A18 /* Roboto-LightItalic.ttf in Resources */,
+				5277B434194069A0001CDA97 /* icon_impressum@2x.png in Resources */,
+				52EDE1471941AF17003A82C3 /* schedule_image_sun-high.png in Resources */,
+				671BD5F11BCD256D0053C24F /* add.png in Resources */,
+				52640F681974046400C96A18 /* Roboto-Italic.ttf in Resources */,
+				52640F6D1974046400C96A18 /* Roboto-Regular.ttf in Resources */,
+				52640F621974046400C96A18 /* Roboto-Bold.ttf in Resources */,
+				671BD5F71BCD2FC50053C24F /* handOn.png in Resources */,
+				52640F6C1974046400C96A18 /* Roboto-MediumItalic.ttf in Resources */,
+				52640F6B1974046400C96A18 /* Roboto-Medium.ttf in Resources */,
+				52EDE1431941AF17003A82C3 /* round_backarrow_big.png in Resources */,
+				52EDE13F1941AF17003A82C3 /* picker_wheel_ip4.png in Resources */,
+				52640F6F1974046400C96A18 /* Roboto-ThinItalic.ttf in Resources */,
+				671BD5F31BCD256D0053C24F /* add@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C90F397EDB94523AB3801BE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		527D93C9193F2B3C0071A63E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"";
+		};
+		527E58791A9F5074007D1E59 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		527E58F01A9F5074007D1E59 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		527E58F11A9F5074007D1E59 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"";
+		};
+		74213979B0FF4D23BBFF2513 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		527E587A1A9F5074007D1E59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527E587B1A9F5074007D1E59 /* KPTimePicker.m in Sources */,
+				527E587C1A9F5074007D1E59 /* APSettingsTableViewController.m in Sources */,
+				527E587D1A9F5074007D1E59 /* APGatewayConnector.m in Sources */,
+				527E587E1A9F5074007D1E59 /* _APLight.m in Sources */,
+				527E587F1A9F5074007D1E59 /* APNavigationController.m in Sources */,
+				52798E501AA0B51200A65800 /* APGatewayModeView.m in Sources */,
+				527E58811A9F5074007D1E59 /* APImageView.m in Sources */,
+				527E58821A9F5074007D1E59 /* APBaseViewController.m in Sources */,
+				527E58831A9F5074007D1E59 /* APLogger.m in Sources */,
+				527E58841A9F5074007D1E59 /* APRotationGestureRecognizer.m in Sources */,
+				527E58851A9F5074007D1E59 /* APLightDetailTableViewController.m in Sources */,
+				527E58861A9F5074007D1E59 /* _APChannel.m in Sources */,
+				527E58871A9F5074007D1E59 /* APCommand.m in Sources */,
+				6710CD421B297E2700CA9775 /* APListSelectionViewController.m in Sources */,
+				527E58881A9F5074007D1E59 /* APColorPicker.m in Sources */,
+				527E58891A9F5074007D1E59 /* _APGateway.m in Sources */,
+				527E588B1A9F5074007D1E59 /* main.m in Sources */,
+				527E588C1A9F5074007D1E59 /* SLDownloadManager.m in Sources */,
+				527E588D1A9F5074007D1E59 /* NSLinkedList.m in Sources */,
+				527E588E1A9F5074007D1E59 /* SLDownloadOperation.m in Sources */,
+				527E588F1A9F5074007D1E59 /* APChannel.m in Sources */,
+				527E58901A9F5074007D1E59 /* RMDownloadIndicator.m in Sources */,
+				527E58921A9F5074007D1E59 /* APChannelDetailViewController.m in Sources */,
+				527E58931A9F5074007D1E59 /* EconluxApp.xcdatamodeld in Sources */,
+				527E58941A9F5074007D1E59 /* APControlScrollViewController.m in Sources */,
+				527E58951A9F5074007D1E59 /* GCDAsyncSocket.m in Sources */,
+				527E58961A9F5074007D1E59 /* APChannelRootViewController.m in Sources */,
+				527E58971A9F5074007D1E59 /* APJSONModel.m in Sources */,
+				527E58981A9F5074007D1E59 /* APLightCreationTableViewController.m in Sources */,
+				527E58991A9F5074007D1E59 /* APConnectionViewController.m in Sources */,
+				527E589A1A9F5074007D1E59 /* APDimmingSwitch.m in Sources */,
+				527E589B1A9F5074007D1E59 /* APLightsTableViewController.m in Sources */,
+				6710CD391B297D3200CA9775 /* APTimePickerViewController.m in Sources */,
+				527E589D1A9F5074007D1E59 /* APRemoteViewController.m in Sources */,
+				527E589E1A9F5074007D1E59 /* APLightConfiguration.m in Sources */,
+				6710CD3D1B297DB300CA9775 /* UIView+Border.m in Sources */,
+				527E589F1A9F5074007D1E59 /* APPhaseTableViewCell.m in Sources */,
+				527E58A01A9F5074007D1E59 /* APLight.m in Sources */,
+				527E58A11A9F5074007D1E59 /* APPhase.m in Sources */,
+				527E58A21A9F5074007D1E59 /* Categories.m in Sources */,
+				527E58A31A9F5074007D1E59 /* APGraphView.m in Sources */,
+				527E58A41A9F5074007D1E59 /* APGateway.m in Sources */,
+				527E58A51A9F5074007D1E59 /* APConnectionManager.m in Sources */,
+				527E58A61A9F5074007D1E59 /* RMDisplayLabel.m in Sources */,
+				527E58A71A9F5074007D1E59 /* APImageManipulationFactory.m in Sources */,
+				527E58A81A9F5074007D1E59 /* APRadialColorPickerViewController.m in Sources */,
+				527E58A91A9F5074007D1E59 /* APAppDelegate.m in Sources */,
+				527E58AA1A9F5074007D1E59 /* _APPhase.m in Sources */,
+				527E58AB1A9F5074007D1E59 /* APBaseTableViewCell.m in Sources */,
+				527E58AC1A9F5074007D1E59 /* APChannelConfiguration.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5289223918F6BE9800F6009D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EDE1491941AF17003A82C3 /* KPTimePicker.m in Sources */,
+				524374631A837C9500A17284 /* APSettingsTableViewController.m in Sources */,
+				5226D9EE196FD21700F171F5 /* APGatewayConnector.m in Sources */,
+				523FD7D51A87AD940042AF41 /* _APLight.m in Sources */,
+				52FF996E1A87EE140053DEED /* APNavigationController.m in Sources */,
+				52E6D7E51AA0882B00248DB2 /* APGatewayModeView.m in Sources */,
+				524374661A83862200A17284 /* APImageView.m in Sources */,
+				52A687391950F3FF00115E1C /* APBaseViewController.m in Sources */,
+				52FF64F61A9BB67F0069DAC4 /* APLogger.m in Sources */,
+				5269986619702958001E5C7C /* APRotationGestureRecognizer.m in Sources */,
+				523FD7A71A877F350042AF41 /* APLightDetailTableViewController.m in Sources */,
+				523FD7D31A87AD940042AF41 /* _APChannel.m in Sources */,
+				520F77A91A82422D009213C1 /* APCommand.m in Sources */,
+				6710CD411B297E2700CA9775 /* APListSelectionViewController.m in Sources */,
+				52EC6EF0195877ED00892885 /* APColorPicker.m in Sources */,
+				523FD7D41A87AD940042AF41 /* _APGateway.m in Sources */,
+				5289224F18F6BE9800F6009D /* main.m in Sources */,
+				524EC5D31A94BDAC00A9A407 /* SLDownloadManager.m in Sources */,
+				5226D9F1196FD94200F171F5 /* NSLinkedList.m in Sources */,
+				524EC5D41A94BDAC00A9A407 /* SLDownloadOperation.m in Sources */,
+				523FD7D71A87AD940042AF41 /* APChannel.m in Sources */,
+				52EC6EF41958AA8600892885 /* RMDownloadIndicator.m in Sources */,
+				52C7E92B1941B66B00AF2EDF /* APChannelDetailViewController.m in Sources */,
+				5289225618F6BE9800F6009D /* EconluxApp.xcdatamodeld in Sources */,
+				527AF2C01976A92E00E00C62 /* APControlScrollViewController.m in Sources */,
+				5226D9EB196FD16700F171F5 /* GCDAsyncSocket.m in Sources */,
+				5289227C18F6C14400F6009D /* APChannelRootViewController.m in Sources */,
+				524EC5CD1A94BCCA00A9A407 /* APJSONModel.m in Sources */,
+				523BFF991A869AF9007E7FAD /* APLightCreationTableViewController.m in Sources */,
+				525CEC2A1A5ABD390084B9C8 /* APConnectionViewController.m in Sources */,
+				52602900196DCA0E00ADECBF /* APDimmingSwitch.m in Sources */,
+				5207A88C1A867A2C00A7DD9F /* APLightsTableViewController.m in Sources */,
+				6710CD381B297D3200CA9775 /* APTimePickerViewController.m in Sources */,
+				5290CE78196C1AE800E54CBF /* APRemoteViewController.m in Sources */,
+				524EC5D71A94BF2300A9A407 /* APLightConfiguration.m in Sources */,
+				6710CD3C1B297DB300CA9775 /* UIView+Border.m in Sources */,
+				52A8764B1957779A00CAE1DB /* APPhaseTableViewCell.m in Sources */,
+				523FD7D91A87AD940042AF41 /* APLight.m in Sources */,
+				523FD7DA1A87AD940042AF41 /* APPhase.m in Sources */,
+				52EDE13B1941AF17003A82C3 /* Categories.m in Sources */,
+				5277B43919406B08001CDA97 /* APGraphView.m in Sources */,
+				523FD7D81A87AD940042AF41 /* APGateway.m in Sources */,
+				52CC380A196992FC00CF8579 /* APConnectionManager.m in Sources */,
+				52EC6EF71958AADD00892885 /* RMDisplayLabel.m in Sources */,
+				5269986319702238001E5C7C /* APImageManipulationFactory.m in Sources */,
+				52862FC81A5D642900429715 /* APRadialColorPickerViewController.m in Sources */,
+				5289225318F6BE9800F6009D /* APAppDelegate.m in Sources */,
+				523FD7D61A87AD940042AF41 /* _APPhase.m in Sources */,
+				5207A8951A8682F100A7DD9F /* APBaseTableViewCell.m in Sources */,
+				524EC5DD1A94BF4700A9A407 /* APChannelConfiguration.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5289224B18F6BE9800F6009D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5289224C18F6BE9800F6009D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		52A56FFA19772257002DC1EC /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52A56FF919772257002DC1EC /* en */,
+				67DAEA311B3A86AA00568417 /* de */,
+				67E2A4E01C1EBE5B0083FC1E /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		527E58F31A9F5074007D1E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 631FBB852BF755CC4D0F5128 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = VS9QL3ZC89;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EconluxApp/EconluxApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"ECONLUX=0",
+					"COCOAPODS=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/FontAwesome+iOS\"",
+					"\"${PODS_ROOT}/Headers/FontAwesome-iOS\"",
+					"\"${PODS_ROOT}/Headers/FrameAccessor\"",
+					"\"${PODS_ROOT}/Headers/MFSideMenu\"",
+					$CONFIGURATION_BUILD_DIR/include,
+					"$(SRCROOT)/**",
+				);
+				INFOPLIST_FILE = Fluval.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = Fluval;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		527E58F41A9F5074007D1E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0DE466B5603E1FC7C3F1123 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = VS9QL3ZC89;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EconluxApp/EconluxApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"ECONLUX=0",
+				);
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/FontAwesome+iOS\"",
+					"\"${PODS_ROOT}/Headers/FontAwesome-iOS\"",
+					"\"${PODS_ROOT}/Headers/FrameAccessor\"",
+					"\"${PODS_ROOT}/Headers/MFSideMenu\"",
+					$CONFIGURATION_BUILD_DIR/include,
+					"$(SRCROOT)/**",
+				);
+				INFOPLIST_FILE = Fluval.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = Fluval;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5289226D18F6BE9800F6009D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "751f1efd-72c0-48db-9943-00beabc290cb";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5289226E18F6BE9800F6009D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5289227018F6BE9800F6009D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 631FBB852BF755CC4D0F5128 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EconluxApp/EconluxApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"ECONLUX=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/FontAwesome+iOS\"",
+					"\"${PODS_ROOT}/Headers/FontAwesome-iOS\"",
+					"\"${PODS_ROOT}/Headers/FrameAccessor\"",
+					"\"${PODS_ROOT}/Headers/MFSideMenu\"",
+					$CONFIGURATION_BUILD_DIR/include,
+					"$(SRCROOT)/**",
+				);
+				INFOPLIST_FILE = "EconluxApp/EconluxApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "67d76559-7938-453e-8eef-424d87913c11";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5289227118F6BE9800F6009D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0DE466B5603E1FC7C3F1123 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ISIS IC GmbH";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EconluxApp/EconluxApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"ECONLUX=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/FontAwesome+iOS\"",
+					"\"${PODS_ROOT}/Headers/FontAwesome-iOS\"",
+					"\"${PODS_ROOT}/Headers/FrameAccessor\"",
+					"\"${PODS_ROOT}/Headers/MFSideMenu\"",
+					$CONFIGURATION_BUILD_DIR/include,
+					"$(SRCROOT)/**",
+				);
+				INFOPLIST_FILE = "EconluxApp/EconluxApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "67d76559-7938-453e-8eef-424d87913c11";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		527E58F21A9F5074007D1E59 /* Build configuration list for PBXNativeTarget "Fluval" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527E58F31A9F5074007D1E59 /* Debug */,
+				527E58F41A9F5074007D1E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5289223818F6BE9800F6009D /* Build configuration list for PBXProject "EconluxApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5289226D18F6BE9800F6009D /* Debug */,
+				5289226E18F6BE9800F6009D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5289226F18F6BE9800F6009D /* Build configuration list for PBXNativeTarget "Econlux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5289227018F6BE9800F6009D /* Debug */,
+				5289227118F6BE9800F6009D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5289225418F6BE9800F6009D /* EconluxApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5289225518F6BE9800F6009D /* EconluxApp.xcdatamodel */,
+			);
+			currentVersion = 5289225518F6BE9800F6009D /* EconluxApp.xcdatamodel */;
+			path = EconluxApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5289223518F6BE9800F6009D /* Project object */;
+}

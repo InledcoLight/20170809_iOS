@@ -1,0 +1,1 @@
+./buildAndArchive "EconluxApp" "Fluval"

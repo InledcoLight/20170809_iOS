@@ -1,0 +1,4 @@
+gw_type	type
+label	label
+channels	channels@APChannelConfiguration
+identifier	identifier

@@ -1,0 +1,31 @@
+PODS:
+  - AZDateBuilder (0.1)
+  - Base64 (1.0.1)
+  - DateTools (1.5.0)
+  - FrameAccessor (1.3.2)
+  - NKOColorPickerView (0.2)
+  - RZSquaresLoading (1.1)
+  - UIColor+MLPFlatColors (1.0)
+  - UIColor-HexString (1.1.0)
+
+DEPENDENCIES:
+  - AZDateBuilder (~> 0.1)
+  - Base64 (~> 1.0)
+  - DateTools (~> 1.3)
+  - FrameAccessor (~> 1.3)
+  - NKOColorPickerView (~> 0.2)
+  - RZSquaresLoading (= 1.1)
+  - UIColor+MLPFlatColors (~> 1.0)
+  - UIColor-HexString (~> 1.1)
+
+SPEC CHECKSUMS:
+  AZDateBuilder: 00939059a13d87c0e1e9b03e0410116857acce57
+  Base64: 4924bf3ca6fa559a5161ef717291bd450eb7bd1a
+  DateTools: b93a2c2017747329c6077c7d7e8a75106e23d0d7
+  FrameAccessor: 0f7ba6ce37be9a5d0302a27c731dca70af8d438b
+  NKOColorPickerView: 3001ad15be1277dac3b80b300f530828e93b23ae
+  RZSquaresLoading: c0aefa508119a76497424829e439e1b8b0d12fdc
+  UIColor+MLPFlatColors: 14deb8f28da06ab8918c14231d4ff49ca7cd384a
+  UIColor-HexString: f8a5612bd6772fed8db58ee594b42a0b2831750e
+
+COCOAPODS: 0.37.2
